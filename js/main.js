@@ -72,27 +72,29 @@ function symbols(feature, latlng) {
 	var layer =  L.circleMarker(latlng,markerOptions);
 
 	//Add popups
-	var popupContent = '';
+	var panelContent = '';
 	for (var property in feature.properties) {
-		popupContent += '<p>' + property + ': ' + feature.properties[property] + '</p>';
+		panelContent += '<p>' + property + ': ' + feature.properties[property] + '</p>';
 	}
-	/*
+	var popupContent = '<p>' + feature.properties.COUNTY_NAME + ', ' + feature.properties.STATE_NAME + '</p>';
+
 	layer.bindPopup(popupContent, {
-		offset: new L.Point(0,-markerOptions.radius) //Offsets the popup from the symbol so they don't overlap.
+		offset: new L.Point(0,-markerOptions.radius), //Offsets the popup from the symbol so they don't overlap.
+		closeButton: false
 	});
-	*/
+
 	//Event listeners to open popup on hover
 	layer.on({
-		/*
+
 		mouseover: function(){
 			this.openPopup();
 		},
 		mouseout: function(){
 			this.closePopup();
-		}
-		*/
+		},
+
 		click: function(){
-			$('#panel').html(popupContent);
+			$('#panel').html(panelContent);
 		}
 	});
 	//
