@@ -1,0 +1,34 @@
+/* Kevin Palmer, 2019 */
+
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+#mainMap {
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+}
+
+#panel {
+    height: 90%;
+    width: 16%;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+#panel p {
+    margin: 0.3em 0;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
