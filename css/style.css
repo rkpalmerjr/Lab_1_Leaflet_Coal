@@ -5,7 +5,7 @@ html, body {
     margin: 0px;
 }
 
-#container {
+#main {
     height: 100%;
     width: 100%;
 }
@@ -23,6 +23,32 @@ html, body {
     display: inline-block;
     vertical-align: middle;
     float: right;
+}
+
+.sequenceControlContainer {
+    width: 350px;
+    height: 50px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+.rangeSlider {
+    width: 50%;
+    /*vertical-align: middle;*/
+}
+
+#forward {
+    float: right;
+    transform: rotate(90deg);
+
+}
+
+#reverse {
+    float: left;
+    transform: rotate(270deg);
 }
 
 #panel p {
