@@ -32,8 +32,8 @@ function getData(map){
 			let attributes = processData(data);
 
 			createPropSymbols(data, map, attributes);
-			createSequenceControls(map, attributes);
 			createLegend(map, attributes);
+			createSequenceControls(map, attributes);
 		}
 	});
 }
@@ -69,7 +69,7 @@ function processData(data){
 //1-2-1.6 Give each feature's circle marker a radius based on its attribute value.
 function calcPropRadius(attValue){
 	//Scale factor to adjust symbol size evenly.
-	let scaleFactor = 0.5;
+	let scaleFactor = 3;
 	//area based on attribute value and scale factor.
 	let area = attValue * scaleFactor;
 	//radius calculated based on area
@@ -207,6 +207,125 @@ function updatePropSymbols(map, attribute){
 	});
 }
 
+
+//PSEUDO-CODE FOR ATTRIBUTE LEGEND
+//1. Add an `<svg>` element to the legend container
+//2. Add a `<circle>` element for each of three attribute values: max, mean, and min
+//3. Assign each `<circle>` element a center and radius based on the dataset max, mean, and min values of the current attribute
+//4. Create legend text to label each circle
+//5. Update circle attributes and legend text when the data attribute is changed by the user
+
+
+//Calculate the max, mean, min values for a given attribute
+function getCircleValues(map, attribute){
+	//Start with min at highest possible and max at lowest value possible number
+	let min = Infinity;
+	let max = -Infinity;
+
+	map.eachLayer(function(layer){
+		//Get the attribute value
+		if (layer.feature){
+			let attributeValue = Number(layer.feature.properties[attribute]);
+
+			//Test for min (INCLUDES 0) <-----------------------This is why there is no min showing up in legend
+			if (attributeValue < min){
+				min = attributeValue;
+			};
+
+			//Test for max
+			if (attributeValue > max){
+				max = attributeValue;
+			};
+		};
+	});
+
+	//Set mean
+	let mean = (max + min) / 2;
+
+	//Return values as an object
+	return {
+		max: max,
+		mean: mean,
+		min: min
+	};
+}
+
+
+function createLegend(map, attributes){
+	let LegendControl = L.Control.extend({
+		options: {
+			position: 'bottomright'
+		},
+
+		onAdd: function(map){
+			//Create the control container with a particular class name
+			let legendContainer = L.DomUtil.create('div', 'legendControlContainer');
+
+			//Create temporal legend here
+			$(legendContainer).append('<h1>Appalachain Coal Employment</h1>');
+
+			//Add temporal legend div to container
+			$(legendContainer).append('<div id="temporalLegend">')
+
+			//1-3-3.1 Start attribute legend svg string
+			let svg = '<svg id="attributeLegend" width="160px" height="160px">';
+
+			//Array of circle names to base loop on
+			let circles = ["max", "mean", "min"];
+
+			//1-3-3.2 Loop to add each circle and text to svg string
+			for (let i=0; i < circles.length; i++){
+				//circle string
+				svg += '<circle class="legendCircle" id="' + circles[i] + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+			};
+
+			//Close svg string
+			svg += "</svg>";
+
+			//Add attribute legend svg to container
+			$(legendContainer).append(svg);
+
+			return legendContainer;
+		}
+	});
+
+	map.addControl(new LegendControl());
+
+	updateLegend(map,attributes[0]);
+};
+
+
+
+
+//Update the legend with new attribute
+function updateLegend(map, attribute){
+	//Create content for legend
+	let year = attribute.split("F")[1];
+	let content = year;
+
+	//Replace Legend Content
+	$('#temporalLegend').html(content);
+
+	//Get the max, mean, an min values as an object
+	let circleValues = getCircleValues(map, attribute);
+
+	for (key in circleValues){
+		//Get the radius
+		let radius = calcPropRadius(circleValues[key]);
+
+		//1-3-3.3 Assign each `<circle>` element a center and radius based on the dataset max, mean, and min values of the current attribute
+		$('#' + key).attr({
+			cx: 80,
+			cy: 159 - radius,
+			r: radius
+		});
+	};
+}
+
+
+
+
+
 function createSequenceControls(map, attributes){
 	let SequenceControl = L.Control.extend({
 		options: {
@@ -221,10 +340,7 @@ function createSequenceControls(map, attributes){
 
 			//Kill any mouse event listeners on the map
 			L.DomEvent.addListener(sliderContainer, 'mousedown dblclick', function(){
-				//L.DomEvent.stopPropagation(ev);
 				L.DomEvent.disableClickPropagation(sliderContainer);
-			//$(sliderContainer).dblclick(function(e){
-				//e.stopPropagation();
 			});
 
 			return sliderContainer;
@@ -265,6 +381,7 @@ function createSequenceControls(map, attributes){
 			index = index > 15 ? 0 : index;
 			//1-2-3.9 Reassign the current attribute based on the new attributes array index
 			updatePropSymbols(map, attributes[index]);
+			updateLegend(map, attributes[index]);
 			//1-2-3.6 For a reverse step, decrement the attributes array index
 			console.log('Forward Click');
 		} else if ($(this).attr('id') == 'reverse') {
@@ -273,6 +390,7 @@ function createSequenceControls(map, attributes){
 			index = index < 0 ? 15 : index;
 			//1-2-3.9 Reassign the current attribute based on the new attributes array index
 			updatePropSymbols(map, attributes[index]);
+			updateLegend(map, attributes[index]);
 			console.log('Reverse Click');
 		};
 
@@ -287,121 +405,11 @@ function createSequenceControls(map, attributes){
 		let index = $(this).val();
 		//1-2-3.9 Reassign the current attribute based on the new attributes array index
 		updatePropSymbols(map, attributes[index]);
-	});
-
-}
-
-
-/*
-//1-2-3 Create new sequence controls
-function createSequenceControls(map, attributes){
-	//1-2-3.1 Create slider widget
-	//Create range input element (slider) (the range type attribute is what makes the slider possible)
-	$('#panel').append('<input class="rangeSlider" type="range">');
-	//Set slider attributes (2000-2015 (16 years))
-	$('.rangeSlider').attr({
-		min: 0,
-		max: 15,
-		value: 0,
-		step: 1
-	});
-
-	//1-2-3.2 Create skip (reverse/forward) buttons
-	$('#panel').append('<button class="skip" id="reverse"><img alt="Reverse Button" src="img/icons/triangle-15.svg"></button>');
-	$('#panel').append('<button class="skip" id="forward"><img alt="Forward Button" src="img/icons/triangle-15.svg"></button>');
-	//$('#reverse').html('<img alt="Reverse Button" src="img/icons/triangle-15.svg">');
-	//$('#forward').html('<img alt="Forward Button" src="img/icons/triangle-15.svg">');
-
-	//1-2-3.5 Listen for user input via affordances
-	//Click listener for buttons
-	$('.skip').click(function() {
-		//Get the old index value
-		let index = $('.rangeSlider').val();
-		console.log(index);
-
-		//1-2-3.6 For a forward step through the sequence, increment the attributes array index
-		if ($(this).attr('id') == 'forward') {
-			index++;
-			//1-2-3.7 If past the last attribute, wrap around to the first attribute
-			index = index > 15 ? 0 : index;
-			//1-2-3.9 Reassign the current attribute based on the new attributes array index
-			updatePropSymbols(map, attributes[index]);
-			//1-2-3.6 For a reverse step, decrement the attributes array index
-			console.log('Forward Click');
-		} else if ($(this).attr('id') == 'reverse') {
-			index--;
-			//1-2-3.7 If past the last attribute, wrap around to the first attribute
-			index = index < 0 ? 15 : index;
-			//1-2-3.9 Reassign the current attribute based on the new attributes array index
-			updatePropSymbols(map, attributes[index]);
-			console.log('Reverse Click');
-		};
-
-		//1-2-3.8 Update the slider position based on the new index
-		$('.rangeSlider').val(index);
-	});
-
-	//Input listener for slider
-	$('.rangeSlider').on('input', function(){
-		//Get the new index value
-		let index = $(this).val();
-		//1-2-3.9 Reassign the current attribute based on the new attributes array index
-		updatePropSymbols(map, attributes[index]);
+		updateLegend(map, attributes[index]);
 	});
 }
-*/
 
-//PSEUDO-CODE FOR ATTRIBUTE LEGEND
-//1. Add an `<svg>` element to the legend container
-//2. Add a `<circle>` element for each of three attribute values: max, mean, and min
-//3. Assign each `<circle>` element a center and radius based on the dataset max, mean, and min values of the current attribute
-//4. Create legend text to label each circle
-//5. Update circle attributes and legend text when the data attribute is changed by the user
 
-/*
-function createLegend(map, attribute){
-	let LegendControl = L.Control.extend({
-		options: {
-			position: 'bottomright'
-		},
-
-		onAdd: function(map){
-			//Create the control container with a particular class name
-			let legendContainer = L.DomUtil.create('div', 'legendControlContainer');
-
-			//Create temporal legend here
-			$(legendContainer).append('<h1>Coal Employment</h1>');
-
-			//Add temporal legend div to container
-			$(legendContainer).append('<div id="temporalLegend">')
-
-			//1-3-3.1 Start attribute legend svg string
-			let svg = '<svg id="attributeLegend" width="180px" height="180px">';
-
-			//Array of circle names to base loop on
-			let circles = ["max", "mean", "min"];
-
-			//1-3-3.2 Loop to add each circle and text to svg string
-			for (let i=0; i < circles.length; i++){
-				//circle string
-				svg += '<circle class="legendCircle" id="' + circles[i] + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
-			};
-
-			//Close svg string
-			svg += "</svg>";
-
-			//Add attribute legend svg to container
-			$(legendContainer).append(svg);
-
-			return legendContainer;
-		}
-	});
-
-	map.addControl(new LegendControl());
-
-	//updateLegend(map,attributess[0]);
-};
-*/
 
 //Load the map once the rest of the web page document has finished loading.
 $(document).ready(createMap);

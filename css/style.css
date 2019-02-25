@@ -25,6 +25,29 @@ html, body {
     float: right;
 }
 
+#panel p {
+    margin: 0.3em 0;
+}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+.legendControlContainer {
+    width: 200px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    line-height: 45px;
+    text-align: center;
+    border: solid gray 1px;
+}
+
+#temporalLegend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .sequenceControlContainer {
     width: 350px;
     height: 50px;
@@ -49,21 +72,4 @@ html, body {
 #reverse {
     float: left;
     transform: rotate(270deg);
-}
-
-.legendControlContainer {
-    width: 200px;
-    height: 230px;
-    background-color: rgba(255,255,255,0.8);
-    padding: 10px;
-    line-height: 45px;
-    text-align: center;
-    border: solid gray 1px;
-
-#panel p {
-    margin: 0.3em 0;
-}
-
-.leaflet-popup-content p {
-    margin: 0.2em 0;
 }
