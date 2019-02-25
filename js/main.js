@@ -33,6 +33,7 @@ function getData(map){
 
 			createPropSymbols(data, map, attributes);
 			createSequenceControls(map, attributes);
+			createLegend(map, attributes);
 		}
 	});
 }
@@ -219,8 +220,9 @@ function createSequenceControls(map, attributes){
 			//...initialize other DOM elements, add listeners, etc.
 
 			//Kill any mouse event listeners on the map
-			L.DomEvent.addListener(sliderContainer, 'input mousedown dblclick', function(ev){
-				L.DomEvent.stopPropagation(ev);
+			L.DomEvent.addListener(sliderContainer, 'mousedown dblclick', function(){
+				//L.DomEvent.stopPropagation(ev);
+				L.DomEvent.disableClickPropagation(sliderContainer);
 			//$(sliderContainer).dblclick(function(e){
 				//e.stopPropagation();
 			});
@@ -347,6 +349,58 @@ function createSequenceControls(map, attributes){
 		updatePropSymbols(map, attributes[index]);
 	});
 }
+*/
+
+//PSEUDO-CODE FOR ATTRIBUTE LEGEND
+//1. Add an `<svg>` element to the legend container
+//2. Add a `<circle>` element for each of three attribute values: max, mean, and min
+//3. Assign each `<circle>` element a center and radius based on the dataset max, mean, and min values of the current attribute
+//4. Create legend text to label each circle
+//5. Update circle attributes and legend text when the data attribute is changed by the user
+
+/*
+function createLegend(map, attribute){
+	let LegendControl = L.Control.extend({
+		options: {
+			position: 'bottomright'
+		},
+
+		onAdd: function(map){
+			//Create the control container with a particular class name
+			let legendContainer = L.DomUtil.create('div', 'legendControlContainer');
+
+			//Create temporal legend here
+			$(legendContainer).append('<h1>Coal Employment</h1>');
+
+			//Add temporal legend div to container
+			$(legendContainer).append('<div id="temporalLegend">')
+
+			//1-3-3.1 Start attribute legend svg string
+			let svg = '<svg id="attributeLegend" width="180px" height="180px">';
+
+			//Array of circle names to base loop on
+			let circles = ["max", "mean", "min"];
+
+			//1-3-3.2 Loop to add each circle and text to svg string
+			for (let i=0; i < circles.length; i++){
+				//circle string
+				svg += '<circle class="legendCircle" id="' + circles[i] + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+			};
+
+			//Close svg string
+			svg += "</svg>";
+
+			//Add attribute legend svg to container
+			$(legendContainer).append(svg);
+
+			return legendContainer;
+		}
+	});
+
+	map.addControl(new LegendControl());
+
+	//updateLegend(map,attributess[0]);
+};
 */
 
 //Load the map once the rest of the web page document has finished loading.
