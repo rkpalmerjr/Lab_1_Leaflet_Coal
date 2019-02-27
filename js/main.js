@@ -207,15 +207,6 @@ function updatePropSymbols(map, attribute){
 	});
 }
 
-
-//PSEUDO-CODE FOR ATTRIBUTE LEGEND
-//1. Add an `<svg>` element to the legend container
-//2. Add a `<circle>` element for each of three attribute values: max, mean, and min
-//3. Assign each `<circle>` element a center and radius based on the dataset max, mean, and min values of the current attribute
-//4. Create legend text to label each circle
-//5. Update circle attributes and legend text when the data attribute is changed by the user
-
-
 //Calculate the max, mean, min values for a given attribute
 function getCircleValues(map, attribute){
 	//Start with min at highest possible and max at lowest value possible number
@@ -250,7 +241,6 @@ function getCircleValues(map, attribute){
 	};
 }
 
-
 function createLegend(map, attributes){
 	let LegendControl = L.Control.extend({
 		options: {
@@ -268,8 +258,25 @@ function createLegend(map, attributes){
 			$(legendContainer).append('<div id="temporalLegend">')
 
 			//1-3-3.1 Start attribute legend svg string
-			let svg = '<svg id="attributeLegend" width="160px" height="160px">';
+			let svg = '<svg id="attributeLegend" width="340px" height="160px">';
 
+			//1-3-3.5 Update circle attributes and legend text when the data attribute is changed by the user
+			//Object to base loop on
+			let circles = {
+				max: 45,
+				mean: 100,
+				min: 155
+			};
+
+			//Loop to add each circle and text to svg strings
+			for (let circle in circles){
+				//Circle string
+				svg += '<circle class="legend-circle" id="' + circle + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+
+				//Text string
+				svg += '<text id="' + circle + '-text" x="250" y="' + circles[circle] + '"></text>';
+			};
+/*
 			//Array of circle names to base loop on
 			let circles = ["max", "mean", "min"];
 
@@ -277,7 +284,11 @@ function createLegend(map, attributes){
 			for (let i=0; i < circles.length; i++){
 				//circle string
 				svg += '<circle class="legendCircle" id="' + circles[i] + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+
+				//text string
+				svg += '<text id="' + circles[i] + '-text" x="250" y="80"></text>';
 			};
+*/
 
 			//Close svg string
 			svg += "</svg>";
@@ -293,9 +304,6 @@ function createLegend(map, attributes){
 
 	updateLegend(map,attributes[0]);
 };
-
-
-
 
 //Update the legend with new attribute
 function updateLegend(map, attribute){
@@ -319,12 +327,11 @@ function updateLegend(map, attribute){
 			cy: 159 - radius,
 			r: radius
 		});
+
+		//1-3-3.4 Add Legend Text
+		$('#' + key + '-text').text(circleValues[key])
 	};
 }
-
-
-
-
 
 function createSequenceControls(map, attributes){
 	let SequenceControl = L.Control.extend({
@@ -408,8 +415,6 @@ function createSequenceControls(map, attributes){
 		updateLegend(map, attributes[index]);
 	});
 }
-
-
 
 //Load the map once the rest of the web page document has finished loading.
 $(document).ready(createMap);
