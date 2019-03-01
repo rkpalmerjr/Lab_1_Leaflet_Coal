@@ -2,7 +2,7 @@
 
 html, body {
     height: 100%;
-    margin: 0px;
+    margin: 0;
 }
 
 #main {
@@ -13,13 +13,16 @@ html, body {
 #mainMap {
     height: 100%;
     width: 80%;
+    border: solid;
     display: inline-block;
+
 }
 
 #panel {
     height: 90%;
     width: 16%;
     padding: 20px;
+    border: solid;
     display: inline-block;
     vertical-align: middle;
     float: right;

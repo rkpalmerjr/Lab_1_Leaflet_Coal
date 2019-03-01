@@ -3,27 +3,55 @@
 //GOAL: Proportional symbols representing attribute values of mapped features
 //STEPS:
 
-//1-2-1.1 Create the Leaflet map--done (in createMap()).
+//1-2-1.1 Create the Leaflet map--done (in createMap())
 
-//Mapbox access token.
+//Mapbox access token
 L.mapbox.accessToken = 'pk.eyJ1IjoicmtwYWxtZXJqciIsImEiOiJjaXZzd25ha3YwNTVmMnRxcmZqMG82MWk5In0.J7XdNJ6-0wr7cgeH6e-7xw';
+
+//Basemaps
+let mapboxStreets = L.mapbox.tileLayer('mapbox.streets');
+let Esri_WorldImagery = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+});
+let Esri_WorldTopoMap = L.tileLayer('http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ, TomTom, Intermap, iPC, USGS, FAO, NPS, NRCAN, GeoBase, Kadaster NL, Ordnance Survey, Esri Japan, METI, Esri China (Hong Kong), and the GIS User Community'
+});
 
 //Function to instantiate the map.
 function createMap(){
 	//Create the map and set the map settings.
-	const map = L.mapbox.map('mainMap', 'mapbox.streets', {
+	let map = L.mapbox.map('mainMap', 'mapbox.streets', {
 		minZoom: 6,
 		maxZoom: 10,
 		maxBounds: [[27.742778, -97.4019444], [47.62, -65.65]]
-	})
-	.setView([37.347222, -81.633333], 6);
-	//Call the getData function to add data to map.
-	getData(map);
+	}).setView([37.347222, -81.633333], 6);
+
+	//Basemaps control varibles
+	let baseMaps = {
+		'Mapbox Streets': mapboxStreets,
+		'ESRI Topo': Esri_WorldTopoMap,
+		'ESRI Imagery': Esri_WorldImagery
+	};
+
+	//Add basemap controls to the map
+	L.control.layers(baseMaps).addTo(map);
+
+	//Create Map Panes <-- See url: https://jsfiddle.net/3v7hd2vx/90/
+	map.createPane("pane250").style.zIndex = 250; // between tiles and overlays
+	map.createPane("pane450").style.zIndex = 450; // between overlays and shadows
+	map.createPane("pane620").style.zIndex = 620; // between markers and tooltips
+	map.createPane("pane800").style.zIndex = 800; // above popups
+
+
+	//Call the getPointData function to add data to map.
+	getPointData(map);
+	getARCOutline(map);
+	getCounties(map);
 }
 
-//1-2-1.2 Import GeoJSON data--done (in getData())
+//1-2-1.2 Import GeoJSON data--done (in getPointData())
 //Function to get/import the geojson data (used by the createMap function).
-function getData(map){
+function getPointData(map){
 	//Load the data.
 	$.ajax('data/Coal_Emp.json', {
 		dataType: 'json',
@@ -38,6 +66,39 @@ function getData(map){
 	});
 }
 
+//Function to get the ARC outline
+function getARCOutline(map){
+	//Load the data.
+	$.ajax('data/ARC_Region_Outline.json', {
+		dataType: 'json',
+		success: function(data){
+			//Create an attributes array with the received data
+			//let attributes = processData(data);
+
+			createARC(data, map);
+			//createARC(data, map, attributes);
+			//createLegend(map, attributes);
+			//createSequenceControls(map, attributes);
+		}
+	});
+}
+
+//Function to get the counties
+function getCounties(map){
+	//Load the data.
+	$.ajax('data/ARC_Region_Subregions.json', {
+		dataType: 'json',
+		success: function(data){
+			//Create an attributes array with the received data
+			//let attributes = processData(data);
+
+			createCounties(data, map);
+			//createARC(data, map, attributes);
+			//createLegend(map, attributes);
+			//createSequenceControls(map, attributes);
+		}
+	});
+}
 //1-2-3.3 Create an array of the sequential attributes to keep track of their order
 //Function to build attributes array from the data
 function processData(data){
@@ -77,13 +138,13 @@ function calcPropRadius(attValue){
 	return radius;
 }
 
-//Variable to create marker options.
+//Variable to create marker options.  Used in symbols and
 let markerOptions = {
 fillColor: '#ff7800',
 color: '#000',
 weight: 1,
 opacity: 1,
-fillOpacity: 0.8
+fillOpacity: 1
 };
 
 //1-2-1.4 Determine which attribute to visualize with proportional symbols
@@ -163,11 +224,40 @@ function createPropSymbols(data, map, attributes){
 	}).addTo(map);
 }
 
+//1-2-1.3 Add circle markers for point features to the map--done (in AJAX callback).
+function createARC(dataARC, map, attributes){
+	//Add the loaded data to the map styled with the marker options.
+	L.geoJSON(dataARC, {
+		//onEachFeature: popUps,
+		///pointToLayer: function(feature, latlng){
+			//return symbols(feature, latlng, attributes);
+		color: "Black",
+		fillColor: 'None',
+		weight: 3,
+		opacity: 1
+	}).addTo(map);
+}
+
+//1-2-1.3 Add circle markers for point features to the map--done (in AJAX callback).
+function createCounties(dataARC, map, attributes){
+	//Add the loaded data to the map styled with the marker options.
+	L.geoJSON(dataARC, {
+		//onEachFeature: popUps,
+		///pointToLayer: function(feature, latlng){
+			//return symbols(feature, latlng, attributes);
+		color: "Black",
+		fillColor: 'None',
+		weight: 0.5,
+		opacity: .5
+	}).addTo(map);
+}
+
 //
 function updatePropSymbols(map, attribute){
 	map.eachLayer(function(layer){
 		if (layer.feature && layer.feature.properties[attribute]){
 			//Update the layer style and popup
+
 			//Access feature properties
 			let props = layer.feature.properties;
 
@@ -184,10 +274,9 @@ function updatePropSymbols(map, attribute){
 			};
 */
 			layer.bindPopup(popupContent, {
-				offset: new L.Point(0, -markerOptions.radius), //Offsets the popup from the symbol so they don't overlap.
+				offset: new L.Point(0, -radius), //Offsets the popup from the symbol so they don't overlap.
 				closeButton: false
 			});
-
 
 			//Event listeners to open popup on hover
 			layer.on({
@@ -219,7 +308,7 @@ function getCircleValues(map, attribute){
 			let attributeValue = Number(layer.feature.properties[attribute]);
 
 			//Test for min (INCLUDES 0) <-----------------------This is why there is no min showing up in legend
-			if (attributeValue < min){
+			if (attributeValue < min && attributeValue != 0){
 				min = attributeValue;
 			};
 
@@ -276,19 +365,6 @@ function createLegend(map, attributes){
 				//Text string
 				svg += '<text id="' + circle + '-text" x="250" y="' + circles[circle] + '"></text>';
 			};
-/*
-			//Array of circle names to base loop on
-			let circles = ["max", "mean", "min"];
-
-			//1-3-3.2 Loop to add each circle and text to svg string
-			for (let i=0; i < circles.length; i++){
-				//circle string
-				svg += '<circle class="legendCircle" id="' + circles[i] + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
-
-				//text string
-				svg += '<text id="' + circles[i] + '-text" x="250" y="80"></text>';
-			};
-*/
 
 			//Close svg string
 			svg += "</svg>";
