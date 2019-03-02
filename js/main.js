@@ -33,27 +33,33 @@ function createMap(){
 		'ESRI Imagery': Esri_WorldImagery
 	};
 
-	//Add basemap controls to the map
-	L.control.layers(baseMaps).addTo(map);
-
 	//Create Map Panes <-- See url: https://jsfiddle.net/3v7hd2vx/90/
-	map.createPane("pane250").style.zIndex = 250; // between tiles and overlays
+	map.createPane("pane240").style.zIndex = 240; // between tiles and overlays
+	map.createPane("pane250").style.zIndex = 250; // between overlays and shadows
+	map.createPane("pane260").style.zIndex = 260; // between overlays and shadows
 	map.createPane("pane450").style.zIndex = 450; // between overlays and shadows
-	map.createPane("pane620").style.zIndex = 620; // between markers and tooltips
-	map.createPane("pane800").style.zIndex = 800; // above popups
-
+	//map.createPane("pane620").style.zIndex = 620; // between markers and tooltips
+	map.createPane("popupPane").style.zIndex = 700; // between overlays and shadows
+	//map.createPane("pane800").style.zIndex = 800; // above popups
 
 	//Call the getPointData function to add data to map.
 	getPointData(map);
+
 	getARCOutline(map);
+	getStates(map);
 	getCounties(map);
+
+
+	//Add basemap controls to the map
+	L.control.layers(baseMaps).addTo(map);
+
 }
 
 //1-2-1.2 Import GeoJSON data--done (in getPointData())
 //Function to get/import the geojson data (used by the createMap function).
 function getPointData(map){
 	//Load the data.
-	$.ajax('data/Coal_Emp.json', {
+	$.ajax('data/Appalachia_Coal_Emp_POINTS.json', {
 		dataType: 'json',
 		success: function(data){
 			//Create an attributes array with the received data
@@ -99,6 +105,24 @@ function getCounties(map){
 		}
 	});
 }
+
+//Function to get the states
+function getStates(map){
+	//Load the data.
+	$.ajax('data/States.json', {
+		dataType: 'json',
+		success: function(data){
+			//Create an attributes array with the received data
+			//let attributes = processData(data);
+
+			createStates(data, map);
+			//createARC(data, map, attributes);
+			//createLegend(map, attributes);
+			//createSequenceControls(map, attributes);
+		}
+	});
+}
+
 //1-2-3.3 Create an array of the sequential attributes to keep track of their order
 //Function to build attributes array from the data
 function processData(data){
@@ -140,11 +164,12 @@ function calcPropRadius(attValue){
 
 //Variable to create marker options.  Used in symbols and
 let markerOptions = {
-fillColor: '#ff7800',
-color: '#000',
-weight: 1,
-opacity: 1,
-fillOpacity: 1
+	pane: 'pane450',
+	fillColor: 'Orange',
+	color: 'Black',
+	weight: 1,
+	opacity: 1,
+	fillOpacity: 0.8
 };
 
 //1-2-1.4 Determine which attribute to visualize with proportional symbols
@@ -174,9 +199,10 @@ function symbols(feature, latlng, attributes){
 	for (let property in feature.properties) {
 		panelContent += '<p>' + property + ': ' + feature.properties[property] + '</p>';
 	}
-	let popupContent = '<p>' + feature.properties.COUNTY_NAME + ', ' + feature.properties.STATE_NAME + '</p>';
+	let popupContent = '<p>' + feature.properties.NAME + ', ' + feature.properties.STATE_NAME + '</p>';
 
 	layer.bindPopup(popupContent, {
+		pane: 'popupPane',
 		offset: new L.Point(0, -markerOptions.radius), //Offsets the popup from the symbol so they don't overlap.
 		closeButton: false
 	});
@@ -228,12 +254,14 @@ function createPropSymbols(data, map, attributes){
 function createARC(dataARC, map, attributes){
 	//Add the loaded data to the map styled with the marker options.
 	L.geoJSON(dataARC, {
+		pane: 'pane240',
 		//onEachFeature: popUps,
 		///pointToLayer: function(feature, latlng){
 			//return symbols(feature, latlng, attributes);
-		color: "Black",
-		fillColor: 'None',
-		weight: 3,
+		color: 'Black',
+		fillColor: 'Black',
+		fillOpacity: .25,
+		weight: 0,
 		opacity: 1
 	}).addTo(map);
 }
@@ -242,12 +270,28 @@ function createARC(dataARC, map, attributes){
 function createCounties(dataARC, map, attributes){
 	//Add the loaded data to the map styled with the marker options.
 	L.geoJSON(dataARC, {
+		pane: 'pane250',
+		//onEachFeature: popUps,
+		///pointToLayer: function(feature, latlng){
+			//return symbols(feature, latlng, attributes);
+		color: "White",
+		fillColor: 'None',
+		weight: .5,
+		opacity: 1
+	}).addTo(map);
+}
+
+//1-2-1.3 Add circle markers for point features to the map--done (in AJAX callback).
+function createStates(dataARC, map, attributes){
+	//Add the loaded data to the map styled with the marker options.
+	L.geoJSON(dataARC, {
+		pane: 'pane260',
 		//onEachFeature: popUps,
 		///pointToLayer: function(feature, latlng){
 			//return symbols(feature, latlng, attributes);
 		color: "Black",
 		fillColor: 'None',
-		weight: 0.5,
+		weight: 1,
 		opacity: .5
 	}).addTo(map);
 }
@@ -266,7 +310,7 @@ function updatePropSymbols(map, attribute){
 			layer.setRadius(radius);
 
 			//Update popup content
-			let popupContent = '<p>' + layer.feature.properties.COUNTY_NAME + ', ' + layer.feature.properties.STATE_NAME + '</p>';
+			let popupContent = '<p>' + layer.feature.properties.NAME + ', ' + layer.feature.properties.STATE_NAME + '</p>';
 /*
 			//Update panel content
 			for (let property in layer.feature.properties) {
@@ -274,6 +318,7 @@ function updatePropSymbols(map, attribute){
 			};
 */
 			layer.bindPopup(popupContent, {
+				pane: 'popupPane',
 				offset: new L.Point(0, -radius), //Offsets the popup from the symbol so they don't overlap.
 				closeButton: false
 			});
@@ -360,7 +405,7 @@ function createLegend(map, attributes){
 			//Loop to add each circle and text to svg strings
 			for (let circle in circles){
 				//Circle string
-				svg += '<circle class="legend-circle" id="' + circle + '" fill="#F47821" fill-opacity="0.8" stroke="#000000" cx="90"/>';
+				svg += '<circle class="legend-circle" id="' + circle + '" fill="Orange" fill-opacity="0.8" stroke="Black" cx="90"/>';
 
 				//Text string
 				svg += '<text id="' + circle + '-text" x="250" y="' + circles[circle] + '"></text>';
@@ -438,7 +483,7 @@ function createSequenceControls(map, attributes){
 	//Set slider attributes (2000-2015 (16 years))
 	$('.rangeSlider').attr({
 		min: 0,
-		max: 15,
+		max: 16,
 		value: 0,
 		step: 1
 	});
@@ -461,7 +506,7 @@ function createSequenceControls(map, attributes){
 		if ($(this).attr('id') == 'forward') {
 			index++;
 			//1-2-3.7 If past the last attribute, wrap around to the first attribute
-			index = index > 15 ? 0 : index;
+			index = index > 16 ? 0 : index;
 			//1-2-3.9 Reassign the current attribute based on the new attributes array index
 			updatePropSymbols(map, attributes[index]);
 			updateLegend(map, attributes[index]);
@@ -470,7 +515,7 @@ function createSequenceControls(map, attributes){
 		} else if ($(this).attr('id') == 'reverse') {
 			index--;
 			//1-2-3.7 If past the last attribute, wrap around to the first attribute
-			index = index < 0 ? 15 : index;
+			index = index < 0 ? 16 : index;
 			//1-2-3.9 Reassign the current attribute based on the new attributes array index
 			updatePropSymbols(map, attributes[index]);
 			updateLegend(map, attributes[index]);
