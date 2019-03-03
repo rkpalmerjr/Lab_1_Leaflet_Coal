@@ -12,16 +12,16 @@ html, body {
 
 #mainMap {
     height: 100%;
-    width: 80%;
+    width: 79.5%;
     border: solid;
     display: inline-block;
 
 }
 
 #panel {
-    height: 90%;
-    width: 16%;
-    padding: 20px;
+    height: 100%;
+    width: 19.5%;
+    padding: 0px;
     border: solid;
     display: inline-block;
     vertical-align: middle;
@@ -29,11 +29,11 @@ html, body {
 }
 
 #panel p {
-    margin: 0.3em 0;
+    margin: 0.0em 0;
 }
 
 .leaflet-popup-content p {
-    margin: 0.2em 0;
+    margin: 0.0em 0;
 }
 
 .legendControlContainer {
