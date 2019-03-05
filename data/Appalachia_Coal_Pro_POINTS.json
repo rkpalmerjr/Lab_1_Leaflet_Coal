@@ -47,7 +47,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -14522,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 1
+        "ORIG_FID" : 1,
+        "METRIC" : "Production"
       }
     },
     {
@@ -90,7 +91,8 @@
         "PCTCHG_MAX_2016_" : -0.99902506153129778,
         "CHG2011_2016" : -350897,
         "PCTCHG2011_2016" : -0.99733397757471542,
-        "ORIG_FID" : 2
+        "ORIG_FID" : 2,
+        "METRIC" : "Production"
       }
     },
     {
@@ -133,7 +135,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -19594,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 3
+        "ORIG_FID" : 3,
+        "METRIC" : "Production"
       }
     },
     {
@@ -176,7 +179,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -43261,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 4
+        "ORIG_FID" : 4,
+        "METRIC" : "Production"
       }
     },
     {
@@ -219,7 +223,8 @@
         "PCTCHG_MAX_2016_" : -0.41419727843192555,
         "CHG2011_2016" : -15212,
         "PCTCHG2011_2016" : -0.068238808916083138,
-        "ORIG_FID" : 5
+        "ORIG_FID" : 5,
+        "METRIC" : "Production"
       }
     },
     {
@@ -262,7 +267,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 6
+        "ORIG_FID" : 6,
+        "METRIC" : "Production"
       }
     },
     {
@@ -305,7 +311,8 @@
         "PCTCHG_MAX_2016_" : -0.55901692068540387,
         "CHG2011_2016" : -5911,
         "PCTCHG2011_2016" : -0.10694384136633377,
-        "ORIG_FID" : 7
+        "ORIG_FID" : 7,
+        "METRIC" : "Production"
       }
     },
     {
@@ -348,7 +355,8 @@
         "PCTCHG_MAX_2016_" : -0.99123723805526442,
         "CHG2011_2016" : -195875,
         "PCTCHG2011_2016" : -0.96881491740033632,
-        "ORIG_FID" : 8
+        "ORIG_FID" : 8,
+        "METRIC" : "Production"
       }
     },
     {
@@ -391,7 +399,8 @@
         "PCTCHG_MAX_2016_" : -0.74737481254618576,
         "CHG2011_2016" : 498,
         "PCTCHG2011_2016" : 0.0016468798571381328,
-        "ORIG_FID" : 9
+        "ORIG_FID" : 9,
+        "METRIC" : "Production"
       }
     },
     {
@@ -434,7 +443,8 @@
         "PCTCHG_MAX_2016_" : -0.71136735486166436,
         "CHG2011_2016" : -241472,
         "PCTCHG2011_2016" : -0.42301837146195637,
-        "ORIG_FID" : 10
+        "ORIG_FID" : 10,
+        "METRIC" : "Production"
       }
     },
     {
@@ -477,7 +487,8 @@
         "PCTCHG_MAX_2016_" : -0.60870600151937204,
         "CHG2011_2016" : -120189,
         "PCTCHG2011_2016" : -0.60870600151937204,
-        "ORIG_FID" : 11
+        "ORIG_FID" : 11,
+        "METRIC" : "Production"
       }
     },
     {
@@ -520,7 +531,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -101300,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 12
+        "ORIG_FID" : 12,
+        "METRIC" : "Production"
       }
     },
     {
@@ -563,7 +575,8 @@
         "PCTCHG_MAX_2016_" : -0.69542812519807318,
         "CHG2011_2016" : -2404416,
         "PCTCHG2011_2016" : -0.66154343516606573,
-        "ORIG_FID" : 13
+        "ORIG_FID" : 13,
+        "METRIC" : "Production"
       }
     },
     {
@@ -606,7 +619,8 @@
         "PCTCHG_MAX_2016_" : -0.80471540127685093,
         "CHG2011_2016" : -97772,
         "PCTCHG2011_2016" : -0.34943031550656889,
-        "ORIG_FID" : 14
+        "ORIG_FID" : 14,
+        "METRIC" : "Production"
       }
     },
     {
@@ -649,7 +663,8 @@
         "PCTCHG_MAX_2016_" : -0.69893501339166708,
         "CHG2011_2016" : -486601,
         "PCTCHG2011_2016" : -0.69508172835873339,
-        "ORIG_FID" : 15
+        "ORIG_FID" : 15,
+        "METRIC" : "Production"
       }
     },
     {
@@ -692,7 +707,8 @@
         "PCTCHG_MAX_2016_" : -0.89795752918424288,
         "CHG2011_2016" : -2259942,
         "PCTCHG2011_2016" : -0.80750743926387736,
-        "ORIG_FID" : 16
+        "ORIG_FID" : 16,
+        "METRIC" : "Production"
       }
     },
     {
@@ -735,7 +751,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 17
+        "ORIG_FID" : 17,
+        "METRIC" : "Production"
       }
     },
     {
@@ -778,7 +795,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -4548,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 18
+        "ORIG_FID" : 18,
+        "METRIC" : "Production"
       }
     },
     {
@@ -821,7 +839,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 19
+        "ORIG_FID" : 19,
+        "METRIC" : "Production"
       }
     },
     {
@@ -864,7 +883,8 @@
         "PCTCHG_MAX_2016_" : -0.47331156338598623,
         "CHG2011_2016" : -396235,
         "PCTCHG2011_2016" : -0.27582402283248059,
-        "ORIG_FID" : 20
+        "ORIG_FID" : 20,
+        "METRIC" : "Production"
       }
     },
     {
@@ -907,7 +927,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -130093,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 21
+        "ORIG_FID" : 21,
+        "METRIC" : "Production"
       }
     },
     {
@@ -950,7 +971,8 @@
         "PCTCHG_MAX_2016_" : -0.62399190845772556,
         "CHG2011_2016" : -2010345,
         "PCTCHG2011_2016" : -0.57487868138027276,
-        "ORIG_FID" : 22
+        "ORIG_FID" : 22,
+        "METRIC" : "Production"
       }
     },
     {
@@ -993,7 +1015,8 @@
         "PCTCHG_MAX_2016_" : -0.919107108984762,
         "CHG2011_2016" : -127199,
         "PCTCHG2011_2016" : -0.67440578127236772,
-        "ORIG_FID" : 23
+        "ORIG_FID" : 23,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1036,7 +1059,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -29577,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 24
+        "ORIG_FID" : 24,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1079,7 +1103,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -2417,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 25
+        "ORIG_FID" : 25,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1122,7 +1147,8 @@
         "PCTCHG_MAX_2016_" : -0.59029502082065932,
         "CHG2011_2016" : -713732,
         "PCTCHG2011_2016" : -0.51301897085978754,
-        "ORIG_FID" : 26
+        "ORIG_FID" : 26,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1165,7 +1191,8 @@
         "PCTCHG_MAX_2016_" : -0.95492402970790391,
         "CHG2011_2016" : -176781,
         "PCTCHG2011_2016" : -0.8857784213611789,
-        "ORIG_FID" : 27
+        "ORIG_FID" : 27,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1208,7 +1235,8 @@
         "PCTCHG_MAX_2016_" : -0.53502609129983303,
         "CHG2011_2016" : -133371,
         "PCTCHG2011_2016" : -0.48521482882817329,
-        "ORIG_FID" : 28
+        "ORIG_FID" : 28,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1251,7 +1279,8 @@
         "PCTCHG_MAX_2016_" : -0.96572578849391211,
         "CHG2011_2016" : -57195,
         "PCTCHG2011_2016" : -0.88140111879921712,
-        "ORIG_FID" : 29
+        "ORIG_FID" : 29,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1294,7 +1323,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 30
+        "ORIG_FID" : 30,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1337,7 +1367,8 @@
         "PCTCHG_MAX_2016_" : -0.70461184067979399,
         "CHG2011_2016" : -1055490,
         "PCTCHG2011_2016" : -0.6599093311625831,
-        "ORIG_FID" : 31
+        "ORIG_FID" : 31,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1380,7 +1411,8 @@
         "PCTCHG_MAX_2016_" : -0.95921128578106585,
         "CHG2011_2016" : -1263706,
         "PCTCHG2011_2016" : -0.91891255138272521,
-        "ORIG_FID" : 32
+        "ORIG_FID" : 32,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1423,7 +1455,8 @@
         "PCTCHG_MAX_2016_" : -0.45157393416295499,
         "CHG2011_2016" : -1202465,
         "PCTCHG2011_2016" : -0.11024059001564315,
-        "ORIG_FID" : 33
+        "ORIG_FID" : 33,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1466,7 +1499,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -164672,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 34
+        "ORIG_FID" : 34,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1509,7 +1543,8 @@
         "PCTCHG_MAX_2016_" : -0.46533645746814312,
         "CHG2011_2016" : -1807682,
         "PCTCHG2011_2016" : -0.46338190385543632,
-        "ORIG_FID" : 35
+        "ORIG_FID" : 35,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1552,7 +1587,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -124389,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 36
+        "ORIG_FID" : 36,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1595,7 +1631,8 @@
         "PCTCHG_MAX_2016_" : -0.32480161019447967,
         "CHG2011_2016" : 45469,
         "PCTCHG2011_2016" : 0.7595129121705142,
-        "ORIG_FID" : 37
+        "ORIG_FID" : 37,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1638,7 +1675,8 @@
         "PCTCHG_MAX_2016_" : -0.74352416638091523,
         "CHG2011_2016" : -4356175,
         "PCTCHG2011_2016" : -0.74352416638091523,
-        "ORIG_FID" : 38
+        "ORIG_FID" : 38,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1681,7 +1719,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -213347,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 39
+        "ORIG_FID" : 39,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1724,7 +1763,8 @@
         "PCTCHG_MAX_2016_" : 0,
         "CHG2011_2016" : 6318000,
         "PCTCHG2011_2016" : 22.95559665294466,
-        "ORIG_FID" : 40
+        "ORIG_FID" : 40,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1767,7 +1807,8 @@
         "PCTCHG_MAX_2016_" : -0.61371148456971403,
         "CHG2011_2016" : -4284332,
         "PCTCHG2011_2016" : -0.57708233938917519,
-        "ORIG_FID" : 41
+        "ORIG_FID" : 41,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1810,7 +1851,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -36300,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 42
+        "ORIG_FID" : 42,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1853,7 +1895,8 @@
         "PCTCHG_MAX_2016_" : -0.99162684340497032,
         "CHG2011_2016" : -206116,
         "PCTCHG2011_2016" : -0.97212606001150803,
-        "ORIG_FID" : 43
+        "ORIG_FID" : 43,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1896,7 +1939,8 @@
         "PCTCHG_MAX_2016_" : -0.01027549093923842,
         "CHG2011_2016" : 2387494,
         "PCTCHG2011_2016" : 0.16577453703655484,
-        "ORIG_FID" : 44
+        "ORIG_FID" : 44,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1939,7 +1983,8 @@
         "PCTCHG_MAX_2016_" : -0.16788645464908139,
         "CHG2011_2016" : 2073727,
         "PCTCHG2011_2016" : 0.094216884198202816,
-        "ORIG_FID" : 45
+        "ORIG_FID" : 45,
+        "METRIC" : "Production"
       }
     },
     {
@@ -1982,7 +2027,8 @@
         "PCTCHG_MAX_2016_" : -0.44433010803526507,
         "CHG2011_2016" : -300164,
         "PCTCHG2011_2016" : -0.40578056561942355,
-        "ORIG_FID" : 46
+        "ORIG_FID" : 46,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2025,7 +2071,8 @@
         "PCTCHG_MAX_2016_" : -0.69681816753567105,
         "CHG2011_2016" : -2187996,
         "PCTCHG2011_2016" : -0.66741440806364971,
-        "ORIG_FID" : 47
+        "ORIG_FID" : 47,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2068,7 +2115,8 @@
         "PCTCHG_MAX_2016_" : -0.40998654032002285,
         "CHG2011_2016" : -2096957,
         "PCTCHG2011_2016" : -0.29615405636985076,
-        "ORIG_FID" : 48
+        "ORIG_FID" : 48,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2111,7 +2159,8 @@
         "PCTCHG_MAX_2016_" : -0.56534959851820155,
         "CHG2011_2016" : -1167785,
         "PCTCHG2011_2016" : -0.56534959851820155,
-        "ORIG_FID" : 49
+        "ORIG_FID" : 49,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2154,7 +2203,8 @@
         "PCTCHG_MAX_2016_" : -0.82680177173025715,
         "CHG2011_2016" : -229006,
         "PCTCHG2011_2016" : -0.25454868810821923,
-        "ORIG_FID" : 50
+        "ORIG_FID" : 50,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2197,7 +2247,8 @@
         "PCTCHG_MAX_2016_" : -0.5233067428363406,
         "CHG2011_2016" : -4791522,
         "PCTCHG2011_2016" : -0.45562140474142665,
-        "ORIG_FID" : 51
+        "ORIG_FID" : 51,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2240,7 +2291,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -29585,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 52
+        "ORIG_FID" : 52,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2283,7 +2335,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -75995,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 53
+        "ORIG_FID" : 53,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2326,7 +2379,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 54
+        "ORIG_FID" : 54,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2369,7 +2423,8 @@
         "PCTCHG_MAX_2016_" : -0.19803530566044444,
         "CHG2011_2016" : -662981,
         "PCTCHG2011_2016" : -0.056807454654056247,
-        "ORIG_FID" : 55
+        "ORIG_FID" : 55,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2412,7 +2467,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -9740,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 56
+        "ORIG_FID" : 56,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2455,7 +2511,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -535586,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 57
+        "ORIG_FID" : 57,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2498,7 +2555,8 @@
         "PCTCHG_MAX_2016_" : 0,
         "CHG2011_2016" : 3558825,
         "PCTCHG2011_2016" : 264.85264567983927,
-        "ORIG_FID" : 58
+        "ORIG_FID" : 58,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2541,7 +2599,8 @@
         "PCTCHG_MAX_2016_" : -0.91725739787807781,
         "CHG2011_2016" : -808172,
         "PCTCHG2011_2016" : -0.87787529871822723,
-        "ORIG_FID" : 59
+        "ORIG_FID" : 59,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2584,7 +2643,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -119574,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 60
+        "ORIG_FID" : 60,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2627,7 +2687,8 @@
         "PCTCHG_MAX_2016_" : -0.50860678799783943,
         "CHG2011_2016" : -290373,
         "PCTCHG2011_2016" : -0.2247475998377704,
-        "ORIG_FID" : 61
+        "ORIG_FID" : 61,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2670,7 +2731,8 @@
         "PCTCHG_MAX_2016_" : -0.27693792146870871,
         "CHG2011_2016" : -370640,
         "PCTCHG2011_2016" : -0.15540839148289559,
-        "ORIG_FID" : 62
+        "ORIG_FID" : 62,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2713,7 +2775,8 @@
         "PCTCHG_MAX_2016_" : -0.97305910279519658,
         "CHG2011_2016" : -348250,
         "PCTCHG2011_2016" : -0.89135570531639607,
-        "ORIG_FID" : 63
+        "ORIG_FID" : 63,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2756,7 +2819,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -443552,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 64
+        "ORIG_FID" : 64,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2799,7 +2863,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 65
+        "ORIG_FID" : 65,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2842,7 +2907,8 @@
         "PCTCHG_MAX_2016_" : -0.86347397332036402,
         "CHG2011_2016" : -906410,
         "PCTCHG2011_2016" : -0.69365758763797047,
-        "ORIG_FID" : 66
+        "ORIG_FID" : 66,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2885,7 +2951,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 67
+        "ORIG_FID" : 67,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2928,7 +2995,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 68
+        "ORIG_FID" : 68,
+        "METRIC" : "Production"
       }
     },
     {
@@ -2971,7 +3039,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 69
+        "ORIG_FID" : 69,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3014,7 +3083,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 70
+        "ORIG_FID" : 70,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3057,7 +3127,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 71
+        "ORIG_FID" : 71,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3100,7 +3171,8 @@
         "PCTCHG_MAX_2016_" : -0.95009844792848686,
         "CHG2011_2016" : -3150047,
         "PCTCHG2011_2016" : -0.91461725290822171,
-        "ORIG_FID" : 72
+        "ORIG_FID" : 72,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3143,7 +3215,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 73
+        "ORIG_FID" : 73,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3186,7 +3259,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -2503629,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 74
+        "ORIG_FID" : 74,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3229,7 +3303,8 @@
         "PCTCHG_MAX_2016_" : -0.61772697192764348,
         "CHG2011_2016" : -3130664,
         "PCTCHG2011_2016" : -0.34804154756924532,
-        "ORIG_FID" : 75
+        "ORIG_FID" : 75,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3272,7 +3347,8 @@
         "PCTCHG_MAX_2016_" : -0.89539656144296731,
         "CHG2011_2016" : -2996318,
         "PCTCHG2011_2016" : -0.83451088258263173,
-        "ORIG_FID" : 76
+        "ORIG_FID" : 76,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3315,7 +3391,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 77
+        "ORIG_FID" : 77,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3358,7 +3435,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 78
+        "ORIG_FID" : 78,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3401,7 +3479,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -4216189,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 79
+        "ORIG_FID" : 79,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3444,7 +3523,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -939162,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 80
+        "ORIG_FID" : 80,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3487,7 +3567,8 @@
         "PCTCHG_MAX_2016_" : -0.94946255358350995,
         "CHG2011_2016" : 54586,
         "PCTCHG2011_2016" : 0.71486006888513465,
-        "ORIG_FID" : 81
+        "ORIG_FID" : 81,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3530,7 +3611,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -47384,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 82
+        "ORIG_FID" : 82,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3573,7 +3655,8 @@
         "PCTCHG_MAX_2016_" : -0.56914528463599134,
         "CHG2011_2016" : -609803,
         "PCTCHG2011_2016" : -0.53960044279228137,
-        "ORIG_FID" : 83
+        "ORIG_FID" : 83,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3616,7 +3699,8 @@
         "PCTCHG_MAX_2016_" : -0.67434205882768128,
         "CHG2011_2016" : -4161359,
         "PCTCHG2011_2016" : -0.63878919595336392,
-        "ORIG_FID" : 84
+        "ORIG_FID" : 84,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3659,7 +3743,8 @@
         "PCTCHG_MAX_2016_" : -0.85513958268850843,
         "CHG2011_2016" : -17717178,
         "PCTCHG2011_2016" : -0.77952080345317598,
-        "ORIG_FID" : 85
+        "ORIG_FID" : 85,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3702,7 +3787,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 86
+        "ORIG_FID" : 86,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3745,7 +3831,8 @@
         "PCTCHG_MAX_2016_" : -0.5902428550589649,
         "CHG2011_2016" : -9448744,
         "PCTCHG2011_2016" : -0.54768428301756533,
-        "ORIG_FID" : 87
+        "ORIG_FID" : 87,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3788,7 +3875,8 @@
         "PCTCHG_MAX_2016_" : -0.80678619194131473,
         "CHG2011_2016" : -48531,
         "PCTCHG2011_2016" : -0.19120468684130693,
-        "ORIG_FID" : 88
+        "ORIG_FID" : 88,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3831,7 +3919,8 @@
         "PCTCHG_MAX_2016_" : -0.50160443563090973,
         "CHG2011_2016" : -2782050,
         "PCTCHG2011_2016" : -0.36672549284278594,
-        "ORIG_FID" : 89
+        "ORIG_FID" : 89,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3874,7 +3963,8 @@
         "PCTCHG_MAX_2016_" : -0.85160250103864754,
         "CHG2011_2016" : -4332290,
         "PCTCHG2011_2016" : -0.56160244578863949,
-        "ORIG_FID" : 90
+        "ORIG_FID" : 90,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3917,7 +4007,8 @@
         "PCTCHG_MAX_2016_" : -0.9373797398179633,
         "CHG2011_2016" : -4838491,
         "PCTCHG2011_2016" : -0.88085409053125152,
-        "ORIG_FID" : 91
+        "ORIG_FID" : 91,
+        "METRIC" : "Production"
       }
     },
     {
@@ -3960,7 +4051,8 @@
         "PCTCHG_MAX_2016_" : -0.89854318678810463,
         "CHG2011_2016" : -2611678,
         "PCTCHG2011_2016" : -0.88346767959996853,
-        "ORIG_FID" : 92
+        "ORIG_FID" : 92,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4003,7 +4095,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 93
+        "ORIG_FID" : 93,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4046,7 +4139,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 94
+        "ORIG_FID" : 94,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4089,7 +4183,8 @@
         "PCTCHG_MAX_2016_" : -0.54999222031667694,
         "CHG2011_2016" : -999314,
         "PCTCHG2011_2016" : -0.21534192189272403,
-        "ORIG_FID" : 95
+        "ORIG_FID" : 95,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4132,7 +4227,8 @@
         "PCTCHG_MAX_2016_" : -0.83387882000323565,
         "CHG2011_2016" : -2019847,
         "PCTCHG2011_2016" : -0.68323478672665161,
-        "ORIG_FID" : 96
+        "ORIG_FID" : 96,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4175,7 +4271,8 @@
         "PCTCHG_MAX_2016_" : -0.88172557317645772,
         "CHG2011_2016" : -11099194,
         "PCTCHG2011_2016" : -0.7296141040572317,
-        "ORIG_FID" : 97
+        "ORIG_FID" : 97,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4218,7 +4315,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 98
+        "ORIG_FID" : 98,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4261,7 +4359,8 @@
         "PCTCHG_MAX_2016_" : -0.95577959544588098,
         "CHG2011_2016" : -755283,
         "PCTCHG2011_2016" : -0.90496622325958131,
-        "ORIG_FID" : 99
+        "ORIG_FID" : 99,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4304,7 +4403,8 @@
         "PCTCHG_MAX_2016_" : -0.55726561753368797,
         "CHG2011_2016" : 28909,
         "PCTCHG2011_2016" : 0.35137467486690815,
-        "ORIG_FID" : 100
+        "ORIG_FID" : 100,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4347,7 +4447,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 101
+        "ORIG_FID" : 101,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4390,7 +4491,8 @@
         "PCTCHG_MAX_2016_" : -0.57469329325706431,
         "CHG2011_2016" : -2084313,
         "PCTCHG2011_2016" : -0.45251046978904108,
-        "ORIG_FID" : 102
+        "ORIG_FID" : 102,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4433,7 +4535,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -68807,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 103
+        "ORIG_FID" : 103,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4476,7 +4579,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 104
+        "ORIG_FID" : 104,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4519,7 +4623,8 @@
         "PCTCHG_MAX_2016_" : -0.95140439984307201,
         "CHG2011_2016" : -4374520,
         "PCTCHG2011_2016" : -0.86491047836873625,
-        "ORIG_FID" : 105
+        "ORIG_FID" : 105,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4562,7 +4667,8 @@
         "PCTCHG_MAX_2016_" : -0.3551985509562996,
         "CHG2011_2016" : -1992532,
         "PCTCHG2011_2016" : -0.21273068898119704,
-        "ORIG_FID" : 106
+        "ORIG_FID" : 106,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4605,7 +4711,8 @@
         "PCTCHG_MAX_2016_" : -0.77839680391578958,
         "CHG2011_2016" : -8951527,
         "PCTCHG2011_2016" : -0.71373901398187511,
-        "ORIG_FID" : 107
+        "ORIG_FID" : 107,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4648,7 +4755,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 108
+        "ORIG_FID" : 108,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4691,7 +4799,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -381362,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 109
+        "ORIG_FID" : 109,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4734,7 +4843,8 @@
         "PCTCHG_MAX_2016_" : -0.84621026609260519,
         "CHG2011_2016" : -1000575,
         "PCTCHG2011_2016" : -0.79999920046053474,
-        "ORIG_FID" : 110
+        "ORIG_FID" : 110,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4777,7 +4887,8 @@
         "PCTCHG_MAX_2016_" : -0.97856086902722872,
         "CHG2011_2016" : 3292,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 111
+        "ORIG_FID" : 111,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4820,7 +4931,8 @@
         "PCTCHG_MAX_2016_" : -0.85936469481779543,
         "CHG2011_2016" : -3272726,
         "PCTCHG2011_2016" : -0.77593494593369405,
-        "ORIG_FID" : 112
+        "ORIG_FID" : 112,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4863,7 +4975,8 @@
         "PCTCHG_MAX_2016_" : -0.29600971393327219,
         "CHG2011_2016" : -80504,
         "PCTCHG2011_2016" : -0.02247960321702043,
-        "ORIG_FID" : 113
+        "ORIG_FID" : 113,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4906,7 +5019,8 @@
         "PCTCHG_MAX_2016_" : -0.99453745922660663,
         "CHG2011_2016" : -4770219,
         "PCTCHG2011_2016" : -0.98728795756471044,
-        "ORIG_FID" : 114
+        "ORIG_FID" : 114,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4949,7 +5063,8 @@
         "PCTCHG_MAX_2016_" : -0.89368812399005726,
         "CHG2011_2016" : -5607793,
         "PCTCHG2011_2016" : -0.77683755599656779,
-        "ORIG_FID" : 115
+        "ORIG_FID" : 115,
+        "METRIC" : "Production"
       }
     },
     {
@@ -4992,7 +5107,8 @@
         "PCTCHG_MAX_2016_" : -0.63460880045784918,
         "CHG2011_2016" : -310842,
         "PCTCHG2011_2016" : -0.34954502314242147,
-        "ORIG_FID" : 116
+        "ORIG_FID" : 116,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5035,7 +5151,8 @@
         "PCTCHG_MAX_2016_" : -0.58196465849284051,
         "CHG2011_2016" : -288328,
         "PCTCHG2011_2016" : -0.50346788106529949,
-        "ORIG_FID" : 117
+        "ORIG_FID" : 117,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5078,7 +5195,8 @@
         "PCTCHG_MAX_2016_" : -0.72882609453925407,
         "CHG2011_2016" : -6362992,
         "PCTCHG2011_2016" : -0.65442224614699807,
-        "ORIG_FID" : 118
+        "ORIG_FID" : 118,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5121,7 +5239,8 @@
         "PCTCHG_MAX_2016_" : -0.48874523584056601,
         "CHG2011_2016" : -312252,
         "PCTCHG2011_2016" : -0.48874523584056601,
-        "ORIG_FID" : 119
+        "ORIG_FID" : 119,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5164,7 +5283,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 120
+        "ORIG_FID" : 120,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5207,7 +5327,8 @@
         "PCTCHG_MAX_2016_" : -0.66742456328065214,
         "CHG2011_2016" : -406233,
         "PCTCHG2011_2016" : -0.25875257250630107,
-        "ORIG_FID" : 121
+        "ORIG_FID" : 121,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5250,7 +5371,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 122
+        "ORIG_FID" : 122,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5293,7 +5415,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -280499,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 123
+        "ORIG_FID" : 123,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5336,7 +5459,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 124
+        "ORIG_FID" : 124,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5379,7 +5503,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 125
+        "ORIG_FID" : 125,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5422,7 +5547,8 @@
         "PCTCHG_MAX_2016_" : -0.74357793741369294,
         "CHG2011_2016" : 174690,
         "PCTCHG2011_2016" : 0.38806374650678205,
-        "ORIG_FID" : 126
+        "ORIG_FID" : 126,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5465,7 +5591,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -659229,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 127
+        "ORIG_FID" : 127,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5508,7 +5635,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -203,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 128
+        "ORIG_FID" : 128,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5551,7 +5679,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 129
+        "ORIG_FID" : 129,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5594,7 +5723,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -271461,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 130
+        "ORIG_FID" : 130,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5637,7 +5767,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 131
+        "ORIG_FID" : 131,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5680,7 +5811,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 132
+        "ORIG_FID" : 132,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5723,7 +5855,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 133
+        "ORIG_FID" : 133,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5766,7 +5899,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 134
+        "ORIG_FID" : 134,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5809,7 +5943,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -28581,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 135
+        "ORIG_FID" : 135,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5852,7 +5987,8 @@
         "PCTCHG_MAX_2016_" : 7,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 136
+        "ORIG_FID" : 136,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5895,7 +6031,8 @@
         "PCTCHG_MAX_2016_" : -0.77989778190780168,
         "CHG2011_2016" : -132539,
         "PCTCHG2011_2016" : -0.66968652734548684,
-        "ORIG_FID" : 137
+        "ORIG_FID" : 137,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5938,7 +6075,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -119240,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 138
+        "ORIG_FID" : 138,
+        "METRIC" : "Production"
       }
     },
     {
@@ -5981,7 +6119,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 139
+        "ORIG_FID" : 139,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6024,7 +6163,8 @@
         "PCTCHG_MAX_2016_" : -0.94232416316574064,
         "CHG2011_2016" : -654864,
         "PCTCHG2011_2016" : -0.93897677593081963,
-        "ORIG_FID" : 140
+        "ORIG_FID" : 140,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6067,7 +6207,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -276613,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 141
+        "ORIG_FID" : 141,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6110,7 +6251,8 @@
         "PCTCHG_MAX_2016_" : -0.57960543242337415,
         "CHG2011_2016" : -1819086,
         "PCTCHG2011_2016" : -0.39784643809767095,
-        "ORIG_FID" : 142
+        "ORIG_FID" : 142,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6153,7 +6295,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -2707383,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 143
+        "ORIG_FID" : 143,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6196,7 +6339,8 @@
         "PCTCHG_MAX_2016_" : -0.3611692351846591,
         "CHG2011_2016" : 340803,
         "PCTCHG2011_2016" : 0.063825388160007795,
-        "ORIG_FID" : 144
+        "ORIG_FID" : 144,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6239,7 +6383,8 @@
         "PCTCHG_MAX_2016_" : -0.92052320458658099,
         "CHG2011_2016" : -4482971,
         "PCTCHG2011_2016" : -0.90879163784652084,
-        "ORIG_FID" : 145
+        "ORIG_FID" : 145,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6282,7 +6427,8 @@
         "PCTCHG_MAX_2016_" : -0.8012081710515857,
         "CHG2011_2016" : -230551,
         "PCTCHG2011_2016" : -0.71358577229733078,
-        "ORIG_FID" : 146
+        "ORIG_FID" : 146,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6325,7 +6471,8 @@
         "PCTCHG_MAX_2016_" : -0.30908266631364267,
         "CHG2011_2016" : 19347,
         "PCTCHG2011_2016" : 0.007043612364312073,
-        "ORIG_FID" : 147
+        "ORIG_FID" : 147,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6368,7 +6515,8 @@
         "PCTCHG_MAX_2016_" : -0.78811549180465756,
         "CHG2011_2016" : -136772,
         "PCTCHG2011_2016" : -0.78353326687977631,
-        "ORIG_FID" : 148
+        "ORIG_FID" : 148,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6411,7 +6559,8 @@
         "PCTCHG_MAX_2016_" : -0.87752138226695753,
         "CHG2011_2016" : 103649,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 149
+        "ORIG_FID" : 149,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6454,7 +6603,8 @@
         "PCTCHG_MAX_2016_" : -0.36143680766988406,
         "CHG2011_2016" : 19715,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 150
+        "ORIG_FID" : 150,
+        "METRIC" : "Production"
       }
     },
     {
@@ -6497,7 +6647,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 151
+        "ORIG_FID" : 151,
+        "METRIC" : "Production"
       }
     }
   ]

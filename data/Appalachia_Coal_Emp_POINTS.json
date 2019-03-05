@@ -47,7 +47,8 @@
         "PCTCHG_MAX_2016_" : -0.88888888888888884,
         "CHG2011_2016" : -10,
         "PCTCHG2011_2016" : -0.625,
-        "ORIG_FID" : 1
+        "ORIG_FID" : 1,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -90,7 +91,8 @@
         "PCTCHG_MAX_2016_" : -0.96923076923076923,
         "CHG2011_2016" : -51,
         "PCTCHG2011_2016" : -0.92727272727272725,
-        "ORIG_FID" : 2
+        "ORIG_FID" : 2,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -133,7 +135,8 @@
         "PCTCHG_MAX_2016_" : -0.73684210526315785,
         "CHG2011_2016" : -10,
         "PCTCHG2011_2016" : -0.66666666666666663,
-        "ORIG_FID" : 3
+        "ORIG_FID" : 3,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -176,7 +179,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -11,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 4
+        "ORIG_FID" : 4,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -219,7 +223,8 @@
         "PCTCHG_MAX_2016_" : -0.68918918918918914,
         "CHG2011_2016" : -11,
         "PCTCHG2011_2016" : -0.3235294117647059,
-        "ORIG_FID" : 5
+        "ORIG_FID" : 5,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -262,7 +267,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 6
+        "ORIG_FID" : 6,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -305,7 +311,8 @@
         "PCTCHG_MAX_2016_" : -0.42857142857142855,
         "CHG2011_2016" : -2,
         "PCTCHG2011_2016" : -0.33333333333333331,
-        "ORIG_FID" : 7
+        "ORIG_FID" : 7,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -348,7 +355,8 @@
         "PCTCHG_MAX_2016_" : -0.97115384615384615,
         "CHG2011_2016" : -71,
         "PCTCHG2011_2016" : -0.95945945945945943,
-        "ORIG_FID" : 8
+        "ORIG_FID" : 8,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -391,7 +399,8 @@
         "PCTCHG_MAX_2016_" : -0.24242424242424243,
         "CHG2011_2016" : -44,
         "PCTCHG2011_2016" : -0.12790697674418605,
-        "ORIG_FID" : 9
+        "ORIG_FID" : 9,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -434,7 +443,8 @@
         "PCTCHG_MAX_2016_" : -0.61777777777777776,
         "CHG2011_2016" : -59,
         "PCTCHG2011_2016" : -0.40689655172413791,
-        "ORIG_FID" : 10
+        "ORIG_FID" : 10,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -477,7 +487,8 @@
         "PCTCHG_MAX_2016_" : -0.066666666666666666,
         "CHG2011_2016" : -3,
         "PCTCHG2011_2016" : -0.050847457627118647,
-        "ORIG_FID" : 11
+        "ORIG_FID" : 11,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -520,7 +531,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -15,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 12
+        "ORIG_FID" : 12,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -563,7 +575,8 @@
         "PCTCHG_MAX_2016_" : -0.65153374233128836,
         "CHG2011_2016" : -424,
         "PCTCHG2011_2016" : -0.59887005649717517,
-        "ORIG_FID" : 13
+        "ORIG_FID" : 13,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -606,7 +619,8 @@
         "PCTCHG_MAX_2016_" : -0.27916666666666667,
         "CHG2011_2016" : -17,
         "PCTCHG2011_2016" : -0.089473684210526316,
-        "ORIG_FID" : 14
+        "ORIG_FID" : 14,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -649,7 +663,8 @@
         "PCTCHG_MAX_2016_" : -0.60747663551401865,
         "CHG2011_2016" : -65,
         "PCTCHG2011_2016" : -0.60747663551401865,
-        "ORIG_FID" : 15
+        "ORIG_FID" : 15,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -692,7 +707,8 @@
         "PCTCHG_MAX_2016_" : -0.71008403361344541,
         "CHG2011_2016" : -271,
         "PCTCHG2011_2016" : -0.66259168704156479,
-        "ORIG_FID" : 16
+        "ORIG_FID" : 16,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -735,7 +751,8 @@
         "PCTCHG_MAX_2016_" : 0,
         "CHG2011_2016" : 1,
         "PCTCHG2011_2016" : 0.041666666666666664,
-        "ORIG_FID" : 17
+        "ORIG_FID" : 17,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -778,7 +795,8 @@
         "PCTCHG_MAX_2016_" : -0.53846153846153844,
         "CHG2011_2016" : -3,
         "PCTCHG2011_2016" : -0.33333333333333331,
-        "ORIG_FID" : 18
+        "ORIG_FID" : 18,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -821,7 +839,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 19
+        "ORIG_FID" : 19,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -864,7 +883,8 @@
         "PCTCHG_MAX_2016_" : -0.35812356979405036,
         "CHG2011_2016" : -15,
         "PCTCHG2011_2016" : -0.026041666666666668,
-        "ORIG_FID" : 20
+        "ORIG_FID" : 20,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -907,7 +927,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -59,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 21
+        "ORIG_FID" : 21,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -950,7 +971,8 @@
         "PCTCHG_MAX_2016_" : -0.64688427299703266,
         "CHG2011_2016" : -363,
         "PCTCHG2011_2016" : -0.60399334442595676,
-        "ORIG_FID" : 22
+        "ORIG_FID" : 22,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -993,7 +1015,8 @@
         "PCTCHG_MAX_2016_" : -0.92000000000000004,
         "CHG2011_2016" : -13,
         "PCTCHG2011_2016" : -0.68421052631578949,
-        "ORIG_FID" : 23
+        "ORIG_FID" : 23,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1036,7 +1059,8 @@
         "PCTCHG_MAX_2016_" : -0.6875,
         "CHG2011_2016" : -7,
         "PCTCHG2011_2016" : -0.58333333333333337,
-        "ORIG_FID" : 24
+        "ORIG_FID" : 24,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1079,7 +1103,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -2,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 25
+        "ORIG_FID" : 25,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1122,7 +1147,8 @@
         "PCTCHG_MAX_2016_" : -0.49843260188087773,
         "CHG2011_2016" : -144,
         "PCTCHG2011_2016" : -0.47368421052631576,
-        "ORIG_FID" : 26
+        "ORIG_FID" : 26,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1165,7 +1191,8 @@
         "PCTCHG_MAX_2016_" : -0.91304347826086951,
         "CHG2011_2016" : -39,
         "PCTCHG2011_2016" : -0.8666666666666667,
-        "ORIG_FID" : 27
+        "ORIG_FID" : 27,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1208,7 +1235,8 @@
         "PCTCHG_MAX_2016_" : -0.34375,
         "CHG2011_2016" : -22,
         "PCTCHG2011_2016" : -0.34375,
-        "ORIG_FID" : 28
+        "ORIG_FID" : 28,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1251,7 +1279,8 @@
         "PCTCHG_MAX_2016_" : -0.63636363636363635,
         "CHG2011_2016" : -15,
         "PCTCHG2011_2016" : -0.4838709677419355,
-        "ORIG_FID" : 29
+        "ORIG_FID" : 29,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1294,7 +1323,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 30
+        "ORIG_FID" : 30,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1337,7 +1367,8 @@
         "PCTCHG_MAX_2016_" : -0.55144032921810704,
         "CHG2011_2016" : -116,
         "PCTCHG2011_2016" : -0.51555555555555554,
-        "ORIG_FID" : 31
+        "ORIG_FID" : 31,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1380,7 +1411,8 @@
         "PCTCHG_MAX_2016_" : -0.90529247910863508,
         "CHG2011_2016" : -157,
         "PCTCHG2011_2016" : -0.82198952879581155,
-        "ORIG_FID" : 32
+        "ORIG_FID" : 32,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1423,7 +1455,8 @@
         "PCTCHG_MAX_2016_" : -0.63893510815307819,
         "CHG2011_2016" : -161,
         "PCTCHG2011_2016" : -0.19827586206896552,
-        "ORIG_FID" : 33
+        "ORIG_FID" : 33,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1466,7 +1499,8 @@
         "PCTCHG_MAX_2016_" : -0.76984126984126988,
         "CHG2011_2016" : -47,
         "PCTCHG2011_2016" : -0.61842105263157898,
-        "ORIG_FID" : 34
+        "ORIG_FID" : 34,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1509,7 +1543,8 @@
         "PCTCHG_MAX_2016_" : -0.37668161434977576,
         "CHG2011_2016" : -128,
         "PCTCHG2011_2016" : -0.31527093596059114,
-        "ORIG_FID" : 35
+        "ORIG_FID" : 35,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1552,7 +1587,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -17,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 36
+        "ORIG_FID" : 36,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1595,7 +1631,8 @@
         "PCTCHG_MAX_2016_" : -0.39393939393939392,
         "CHG2011_2016" : -13,
         "PCTCHG2011_2016" : -0.39393939393939392,
-        "ORIG_FID" : 37
+        "ORIG_FID" : 37,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1638,7 +1675,8 @@
         "PCTCHG_MAX_2016_" : -0.72661348803480785,
         "CHG2011_2016" : -934,
         "PCTCHG2011_2016" : -0.71243325705568272,
-        "ORIG_FID" : 38
+        "ORIG_FID" : 38,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1681,7 +1719,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -39,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 39
+        "ORIG_FID" : 39,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1724,7 +1763,8 @@
         "PCTCHG_MAX_2016_" : -0.15339805825242719,
         "CHG2011_2016" : 213,
         "PCTCHG2011_2016" : 0.95515695067264572,
-        "ORIG_FID" : 40
+        "ORIG_FID" : 40,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1767,7 +1807,8 @@
         "PCTCHG_MAX_2016_" : -0.56158192090395476,
         "CHG2011_2016" : -402,
         "PCTCHG2011_2016" : -0.50886075949367093,
-        "ORIG_FID" : 41
+        "ORIG_FID" : 41,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1810,7 +1851,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -35,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 42
+        "ORIG_FID" : 42,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1853,7 +1895,8 @@
         "PCTCHG_MAX_2016_" : -0.78947368421052633,
         "CHG2011_2016" : -40,
         "PCTCHG2011_2016" : -0.66666666666666663,
-        "ORIG_FID" : 43
+        "ORIG_FID" : 43,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1896,7 +1939,8 @@
         "PCTCHG_MAX_2016_" : -0.31593874078275669,
         "CHG2011_2016" : -464,
         "PCTCHG2011_2016" : -0.27784431137724552,
-        "ORIG_FID" : 44
+        "ORIG_FID" : 44,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1939,7 +1983,8 @@
         "PCTCHG_MAX_2016_" : -0.26177633944624235,
         "CHG2011_2016" : -544,
         "PCTCHG2011_2016" : -0.20947246823257604,
-        "ORIG_FID" : 45
+        "ORIG_FID" : 45,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -1982,7 +2027,8 @@
         "PCTCHG_MAX_2016_" : -0.5056179775280899,
         "CHG2011_2016" : -29,
         "PCTCHG2011_2016" : -0.39726027397260272,
-        "ORIG_FID" : 46
+        "ORIG_FID" : 46,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2025,7 +2071,8 @@
         "PCTCHG_MAX_2016_" : -0.45034642032332561,
         "CHG2011_2016" : -99,
         "PCTCHG2011_2016" : -0.29376854599406527,
-        "ORIG_FID" : 47
+        "ORIG_FID" : 47,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2068,7 +2115,8 @@
         "PCTCHG_MAX_2016_" : -0.49416909620991256,
         "CHG2011_2016" : -193,
         "PCTCHG2011_2016" : -0.3574074074074074,
-        "ORIG_FID" : 48
+        "ORIG_FID" : 48,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2111,7 +2159,8 @@
         "PCTCHG_MAX_2016_" : -0.36059479553903345,
         "CHG2011_2016" : -97,
         "PCTCHG2011_2016" : -0.36059479553903345,
-        "ORIG_FID" : 49
+        "ORIG_FID" : 49,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2154,7 +2203,8 @@
         "PCTCHG_MAX_2016_" : -0.48044692737430167,
         "CHG2011_2016" : -74,
         "PCTCHG2011_2016" : -0.2846153846153846,
-        "ORIG_FID" : 50
+        "ORIG_FID" : 50,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2197,7 +2247,8 @@
         "PCTCHG_MAX_2016_" : -0.50412087912087911,
         "CHG2011_2016" : -734,
         "PCTCHG2011_2016" : -0.50412087912087911,
-        "ORIG_FID" : 51
+        "ORIG_FID" : 51,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2240,7 +2291,8 @@
         "PCTCHG_MAX_2016_" : -0.99717514124293782,
         "CHG2011_2016" : -25,
         "PCTCHG2011_2016" : -0.96153846153846156,
-        "ORIG_FID" : 52
+        "ORIG_FID" : 52,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2283,7 +2335,8 @@
         "PCTCHG_MAX_2016_" : -0.92000000000000004,
         "CHG2011_2016" : -14,
         "PCTCHG2011_2016" : -0.875,
-        "ORIG_FID" : 53
+        "ORIG_FID" : 53,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2326,7 +2379,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 54
+        "ORIG_FID" : 54,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2369,7 +2423,8 @@
         "PCTCHG_MAX_2016_" : -0.34880239520958084,
         "CHG2011_2016" : -450,
         "PCTCHG2011_2016" : -0.34090909090909088,
-        "ORIG_FID" : 55
+        "ORIG_FID" : 55,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2412,7 +2467,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -3,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 56
+        "ORIG_FID" : 56,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2455,7 +2511,8 @@
         "PCTCHG_MAX_2016_" : -0.96499999999999997,
         "CHG2011_2016" : -116,
         "PCTCHG2011_2016" : -0.94308943089430897,
-        "ORIG_FID" : 57
+        "ORIG_FID" : 57,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2498,7 +2555,8 @@
         "PCTCHG_MAX_2016_" : -0.031055900621118012,
         "CHG2011_2016" : 422,
         "PCTCHG2011_2016" : 9.1739130434782616,
-        "ORIG_FID" : 58
+        "ORIG_FID" : 58,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2541,7 +2599,8 @@
         "PCTCHG_MAX_2016_" : -0.83589743589743593,
         "CHG2011_2016" : -78,
         "PCTCHG2011_2016" : -0.70909090909090911,
-        "ORIG_FID" : 59
+        "ORIG_FID" : 59,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2584,7 +2643,8 @@
         "PCTCHG_MAX_2016_" : -0.94186046511627908,
         "CHG2011_2016" : -64,
         "PCTCHG2011_2016" : -0.86486486486486491,
-        "ORIG_FID" : 60
+        "ORIG_FID" : 60,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2627,7 +2687,8 @@
         "PCTCHG_MAX_2016_" : -0.32283464566929132,
         "CHG2011_2016" : -97,
         "PCTCHG2011_2016" : -0.27323943661971833,
-        "ORIG_FID" : 61
+        "ORIG_FID" : 61,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2670,7 +2731,8 @@
         "PCTCHG_MAX_2016_" : -0.15444015444015444,
         "CHG2011_2016" : -15,
         "PCTCHG2011_2016" : -0.064102564102564097,
-        "ORIG_FID" : 62
+        "ORIG_FID" : 62,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2713,7 +2775,8 @@
         "PCTCHG_MAX_2016_" : -0.95375722543352603,
         "CHG2011_2016" : -64,
         "PCTCHG2011_2016" : -0.88888888888888884,
-        "ORIG_FID" : 63
+        "ORIG_FID" : 63,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2756,7 +2819,8 @@
         "PCTCHG_MAX_2016_" : -0.99475065616797897,
         "CHG2011_2016" : -80,
         "PCTCHG2011_2016" : -0.95238095238095233,
-        "ORIG_FID" : 64
+        "ORIG_FID" : 64,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2799,7 +2863,8 @@
         "PCTCHG_MAX_2016_" : -0.765625,
         "CHG2011_2016" : -4,
         "PCTCHG2011_2016" : -0.21052631578947367,
-        "ORIG_FID" : 65
+        "ORIG_FID" : 65,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2842,7 +2907,8 @@
         "PCTCHG_MAX_2016_" : -0.6741573033707865,
         "CHG2011_2016" : -129,
         "PCTCHG2011_2016" : -0.47080291970802918,
-        "ORIG_FID" : 66
+        "ORIG_FID" : 66,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2885,7 +2951,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -4,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 67
+        "ORIG_FID" : 67,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2928,7 +2995,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -8,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 68
+        "ORIG_FID" : 68,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -2971,7 +3039,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 69
+        "ORIG_FID" : 69,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3014,7 +3083,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 70
+        "ORIG_FID" : 70,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3057,7 +3127,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 71
+        "ORIG_FID" : 71,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3100,7 +3171,8 @@
         "PCTCHG_MAX_2016_" : -0.7720588235294118,
         "CHG2011_2016" : -340,
         "PCTCHG2011_2016" : -0.68686868686868685,
-        "ORIG_FID" : 72
+        "ORIG_FID" : 72,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3143,7 +3215,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 73
+        "ORIG_FID" : 73,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3186,7 +3259,8 @@
         "PCTCHG_MAX_2016_" : -0.9658848614072495,
         "CHG2011_2016" : -265,
         "PCTCHG2011_2016" : -0.94306049822064053,
-        "ORIG_FID" : 74
+        "ORIG_FID" : 74,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3229,7 +3303,8 @@
         "PCTCHG_MAX_2016_" : -0.37007874015748032,
         "CHG2011_2016" : -504,
         "PCTCHG2011_2016" : -0.31034482758620691,
-        "ORIG_FID" : 75
+        "ORIG_FID" : 75,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3272,7 +3347,8 @@
         "PCTCHG_MAX_2016_" : -0.79042690815006467,
         "CHG2011_2016" : -562,
         "PCTCHG2011_2016" : -0.77624309392265189,
-        "ORIG_FID" : 76
+        "ORIG_FID" : 76,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3315,7 +3391,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 77
+        "ORIG_FID" : 77,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3358,7 +3435,8 @@
         "PCTCHG_MAX_2016_" : -0.87671232876712324,
         "CHG2011_2016" : -67,
         "PCTCHG2011_2016" : -0.71276595744680848,
-        "ORIG_FID" : 78
+        "ORIG_FID" : 78,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3401,7 +3479,8 @@
         "PCTCHG_MAX_2016_" : -0.85487528344671204,
         "CHG2011_2016" : -749,
         "PCTCHG2011_2016" : -0.8540478905359179,
-        "ORIG_FID" : 79
+        "ORIG_FID" : 79,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3444,7 +3523,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -208,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 80
+        "ORIG_FID" : 80,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3487,7 +3567,8 @@
         "PCTCHG_MAX_2016_" : -0.82545454545454544,
         "CHG2011_2016" : 10,
         "PCTCHG2011_2016" : 0.26315789473684209,
-        "ORIG_FID" : 81
+        "ORIG_FID" : 81,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3530,7 +3611,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -12,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 82
+        "ORIG_FID" : 82,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3573,7 +3655,8 @@
         "PCTCHG_MAX_2016_" : -0.77213114754098355,
         "CHG2011_2016" : -422,
         "PCTCHG2011_2016" : -0.75222816399286985,
-        "ORIG_FID" : 83
+        "ORIG_FID" : 83,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3616,7 +3699,8 @@
         "PCTCHG_MAX_2016_" : -0.59587471352177235,
         "CHG2011_2016" : -780,
         "PCTCHG2011_2016" : -0.59587471352177235,
-        "ORIG_FID" : 84
+        "ORIG_FID" : 84,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3659,7 +3743,8 @@
         "PCTCHG_MAX_2016_" : -0.75959821428571428,
         "CHG2011_2016" : -3265,
         "PCTCHG2011_2016" : -0.75195762321510828,
-        "ORIG_FID" : 85
+        "ORIG_FID" : 85,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3702,7 +3787,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 86
+        "ORIG_FID" : 86,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3745,7 +3831,8 @@
         "PCTCHG_MAX_2016_" : -0.39055441478439423,
         "CHG2011_2016" : -908,
         "PCTCHG2011_2016" : -0.37959866220735788,
-        "ORIG_FID" : 87
+        "ORIG_FID" : 87,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3788,7 +3875,8 @@
         "PCTCHG_MAX_2016_" : -0.72440944881889768,
         "CHG2011_2016" : -16,
         "PCTCHG2011_2016" : -0.18604651162790697,
-        "ORIG_FID" : 88
+        "ORIG_FID" : 88,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3831,7 +3919,8 @@
         "PCTCHG_MAX_2016_" : -0.38648782911077995,
         "CHG2011_2016" : -548,
         "PCTCHG2011_2016" : -0.30734716769489623,
-        "ORIG_FID" : 89
+        "ORIG_FID" : 89,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3874,7 +3963,8 @@
         "PCTCHG_MAX_2016_" : -0.74726368159203982,
         "CHG2011_2016" : -986,
         "PCTCHG2011_2016" : -0.65997322623828647,
-        "ORIG_FID" : 90
+        "ORIG_FID" : 90,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3917,7 +4007,8 @@
         "PCTCHG_MAX_2016_" : -0.79329102447869448,
         "CHG2011_2016" : -875,
         "PCTCHG2011_2016" : -0.79329102447869448,
-        "ORIG_FID" : 91
+        "ORIG_FID" : 91,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -3960,7 +4051,8 @@
         "PCTCHG_MAX_2016_" : -0.87301587301587302,
         "CHG2011_2016" : -305,
         "PCTCHG2011_2016" : -0.86402266288951846,
-        "ORIG_FID" : 92
+        "ORIG_FID" : 92,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4003,7 +4095,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 93
+        "ORIG_FID" : 93,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4046,7 +4139,8 @@
         "PCTCHG_MAX_2016_" : -0.61111111111111116,
         "CHG2011_2016" : 13,
         "PCTCHG2011_2016" : 13,
-        "ORIG_FID" : 94
+        "ORIG_FID" : 94,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4089,7 +4183,8 @@
         "PCTCHG_MAX_2016_" : -0.35277582572030919,
         "CHG2011_2016" : -418,
         "PCTCHG2011_2016" : -0.31217326362957432,
-        "ORIG_FID" : 95
+        "ORIG_FID" : 95,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4132,7 +4227,8 @@
         "PCTCHG_MAX_2016_" : -0.79616724738675959,
         "CHG2011_2016" : -427,
         "PCTCHG2011_2016" : -0.64599092284417547,
-        "ORIG_FID" : 96
+        "ORIG_FID" : 96,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4175,7 +4271,8 @@
         "PCTCHG_MAX_2016_" : -0.76227333038478551,
         "CHG2011_2016" : -2517,
         "PCTCHG2011_2016" : -0.70072383073496658,
-        "ORIG_FID" : 97
+        "ORIG_FID" : 97,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4218,7 +4315,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 98
+        "ORIG_FID" : 98,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4261,7 +4359,8 @@
         "PCTCHG_MAX_2016_" : -0.87593984962406013,
         "CHG2011_2016" : -184,
         "PCTCHG2011_2016" : -0.84792626728110598,
-        "ORIG_FID" : 99
+        "ORIG_FID" : 99,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4304,7 +4403,8 @@
         "PCTCHG_MAX_2016_" : -0.21739130434782608,
         "CHG2011_2016" : 6,
         "PCTCHG2011_2016" : 0.5,
-        "ORIG_FID" : 100
+        "ORIG_FID" : 100,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4347,7 +4447,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 101
+        "ORIG_FID" : 101,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4390,7 +4491,8 @@
         "PCTCHG_MAX_2016_" : -0.48829431438127091,
         "CHG2011_2016" : -662,
         "PCTCHG2011_2016" : -0.4639103013314646,
-        "ORIG_FID" : 102
+        "ORIG_FID" : 102,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4433,7 +4535,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -35,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 103
+        "ORIG_FID" : 103,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4476,7 +4579,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 104
+        "ORIG_FID" : 104,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4519,7 +4623,8 @@
         "PCTCHG_MAX_2016_" : -0.91274397244546501,
         "CHG2011_2016" : -971,
         "PCTCHG2011_2016" : -0.86464826357969726,
-        "ORIG_FID" : 105
+        "ORIG_FID" : 105,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4562,7 +4667,8 @@
         "PCTCHG_MAX_2016_" : -0.40653728294177732,
         "CHG2011_2016" : -709,
         "PCTCHG2011_2016" : -0.378941742383752,
-        "ORIG_FID" : 106
+        "ORIG_FID" : 106,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4605,7 +4711,8 @@
         "PCTCHG_MAX_2016_" : -0.70686274509803926,
         "CHG2011_2016" : -1414,
         "PCTCHG2011_2016" : -0.70278330019880719,
-        "ORIG_FID" : 107
+        "ORIG_FID" : 107,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4648,7 +4755,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -8,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 108
+        "ORIG_FID" : 108,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4691,7 +4799,8 @@
         "PCTCHG_MAX_2016_" : -0.90607734806629836,
         "CHG2011_2016" : -119,
         "PCTCHG2011_2016" : -0.875,
-        "ORIG_FID" : 109
+        "ORIG_FID" : 109,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4734,7 +4843,8 @@
         "PCTCHG_MAX_2016_" : -0.82729805013927582,
         "CHG2011_2016" : -185,
         "PCTCHG2011_2016" : -0.74898785425101211,
-        "ORIG_FID" : 110
+        "ORIG_FID" : 110,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4777,7 +4887,8 @@
         "PCTCHG_MAX_2016_" : -0.84615384615384615,
         "CHG2011_2016" : 3,
         "PCTCHG2011_2016" : 1,
-        "ORIG_FID" : 111
+        "ORIG_FID" : 111,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4820,7 +4931,8 @@
         "PCTCHG_MAX_2016_" : -0.78240740740740744,
         "CHG2011_2016" : -674,
         "PCTCHG2011_2016" : -0.78190255220417637,
-        "ORIG_FID" : 112
+        "ORIG_FID" : 112,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4863,7 +4975,8 @@
         "PCTCHG_MAX_2016_" : -0.38630600169061707,
         "CHG2011_2016" : -243,
         "PCTCHG2011_2016" : -0.25077399380804954,
-        "ORIG_FID" : 113
+        "ORIG_FID" : 113,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4906,7 +5019,8 @@
         "PCTCHG_MAX_2016_" : -0.94984126984126982,
         "CHG2011_2016" : -947,
         "PCTCHG2011_2016" : -0.92300194931773882,
-        "ORIG_FID" : 114
+        "ORIG_FID" : 114,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4949,7 +5063,8 @@
         "PCTCHG_MAX_2016_" : -0.78965785381026443,
         "CHG2011_2016" : -1379,
         "PCTCHG2011_2016" : -0.7182291666666667,
-        "ORIG_FID" : 115
+        "ORIG_FID" : 115,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -4992,7 +5107,8 @@
         "PCTCHG_MAX_2016_" : -0.91563275434243174,
         "CHG2011_2016" : -229,
         "PCTCHG2011_2016" : -0.87072243346007605,
-        "ORIG_FID" : 116
+        "ORIG_FID" : 116,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5035,7 +5151,8 @@
         "PCTCHG_MAX_2016_" : -0.40579710144927539,
         "CHG2011_2016" : -46,
         "PCTCHG2011_2016" : -0.27218934911242604,
-        "ORIG_FID" : 117
+        "ORIG_FID" : 117,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5078,7 +5195,8 @@
         "PCTCHG_MAX_2016_" : -0.64213094753965028,
         "CHG2011_2016" : -1459,
         "PCTCHG2011_2016" : -0.62377084224027357,
-        "ORIG_FID" : 118
+        "ORIG_FID" : 118,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5121,7 +5239,8 @@
         "PCTCHG_MAX_2016_" : -0.26839826839826841,
         "CHG2011_2016" : -62,
         "PCTCHG2011_2016" : -0.26839826839826841,
-        "ORIG_FID" : 119
+        "ORIG_FID" : 119,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5164,7 +5283,8 @@
         "PCTCHG_MAX_2016_" : -0.80000000000000004,
         "CHG2011_2016" : -3,
         "PCTCHG2011_2016" : -0.42857142857142855,
-        "ORIG_FID" : 120
+        "ORIG_FID" : 120,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5207,7 +5327,8 @@
         "PCTCHG_MAX_2016_" : -0.61462882096069871,
         "CHG2011_2016" : -353,
         "PCTCHG2011_2016" : -0.5,
-        "ORIG_FID" : 121
+        "ORIG_FID" : 121,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5250,7 +5371,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 122
+        "ORIG_FID" : 122,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5293,7 +5415,8 @@
         "PCTCHG_MAX_2016_" : -0.82006920415224915,
         "CHG2011_2016" : -136,
         "PCTCHG2011_2016" : -0.72340425531914898,
-        "ORIG_FID" : 123
+        "ORIG_FID" : 123,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5336,7 +5459,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 124
+        "ORIG_FID" : 124,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5379,7 +5503,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -6,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 125
+        "ORIG_FID" : 125,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5422,7 +5547,8 @@
         "PCTCHG_MAX_2016_" : -0.5447941888619855,
         "CHG2011_2016" : 4,
         "PCTCHG2011_2016" : 0.021739130434782608,
-        "ORIG_FID" : 126
+        "ORIG_FID" : 126,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5465,7 +5591,8 @@
         "PCTCHG_MAX_2016_" : -0.94078947368421051,
         "CHG2011_2016" : -229,
         "PCTCHG2011_2016" : -0.92712550607287447,
-        "ORIG_FID" : 127
+        "ORIG_FID" : 127,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5508,7 +5635,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -2,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 128
+        "ORIG_FID" : 128,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5551,7 +5679,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 129
+        "ORIG_FID" : 129,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5594,7 +5723,8 @@
         "PCTCHG_MAX_2016_" : -0.93846153846153846,
         "CHG2011_2016" : -85,
         "PCTCHG2011_2016" : -0.87628865979381443,
-        "ORIG_FID" : 130
+        "ORIG_FID" : 130,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5637,7 +5767,8 @@
         "PCTCHG_MAX_2016_" : -0.90384615384615385,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 131
+        "ORIG_FID" : 131,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5680,7 +5811,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 132
+        "ORIG_FID" : 132,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5723,7 +5855,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 133
+        "ORIG_FID" : 133,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5766,7 +5899,8 @@
         "PCTCHG_MAX_2016_" : -0.66666666666666663,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 134
+        "ORIG_FID" : 134,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5809,7 +5943,8 @@
         "PCTCHG_MAX_2016_" : -0.9555555555555556,
         "CHG2011_2016" : -37,
         "PCTCHG2011_2016" : -0.86046511627906974,
-        "ORIG_FID" : 135
+        "ORIG_FID" : 135,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5852,7 +5987,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 136
+        "ORIG_FID" : 136,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5895,7 +6031,8 @@
         "PCTCHG_MAX_2016_" : 0,
         "CHG2011_2016" : 1,
         "PCTCHG2011_2016" : 0.02564102564102564,
-        "ORIG_FID" : 137
+        "ORIG_FID" : 137,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5938,7 +6075,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -21,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 138
+        "ORIG_FID" : 138,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -5981,7 +6119,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : 0,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 139
+        "ORIG_FID" : 139,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6024,7 +6163,8 @@
         "PCTCHG_MAX_2016_" : -0.80701754385964908,
         "CHG2011_2016" : -92,
         "PCTCHG2011_2016" : -0.80701754385964908,
-        "ORIG_FID" : 140
+        "ORIG_FID" : 140,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6067,7 +6207,8 @@
         "PCTCHG_MAX_2016_" : -0.93939393939393945,
         "CHG2011_2016" : -62,
         "PCTCHG2011_2016" : -0.93939393939393945,
-        "ORIG_FID" : 141
+        "ORIG_FID" : 141,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6110,7 +6251,8 @@
         "PCTCHG_MAX_2016_" : -0.45862884160756501,
         "CHG2011_2016" : -472,
         "PCTCHG2011_2016" : -0.4072476272648835,
-        "ORIG_FID" : 142
+        "ORIG_FID" : 142,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6153,7 +6295,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -380,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 143
+        "ORIG_FID" : 143,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6196,7 +6339,8 @@
         "PCTCHG_MAX_2016_" : -0.38797814207650272,
         "CHG2011_2016" : -582,
         "PCTCHG2011_2016" : -0.34195064629847238,
-        "ORIG_FID" : 144
+        "ORIG_FID" : 144,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6239,7 +6383,8 @@
         "PCTCHG_MAX_2016_" : -0.84436090225563909,
         "CHG2011_2016" : -999,
         "PCTCHG2011_2016" : -0.82835820895522383,
-        "ORIG_FID" : 145
+        "ORIG_FID" : 145,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6282,7 +6427,8 @@
         "PCTCHG_MAX_2016_" : -0.7321428571428571,
         "CHG2011_2016" : -55,
         "PCTCHG2011_2016" : -0.47826086956521741,
-        "ORIG_FID" : 146
+        "ORIG_FID" : 146,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6325,7 +6471,8 @@
         "PCTCHG_MAX_2016_" : -0.073275862068965511,
         "CHG2011_2016" : -10,
         "PCTCHG2011_2016" : -0.044444444444444446,
-        "ORIG_FID" : 147
+        "ORIG_FID" : 147,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6368,7 +6515,8 @@
         "PCTCHG_MAX_2016_" : -0.87755102040816324,
         "CHG2011_2016" : -26,
         "PCTCHG2011_2016" : -0.8125,
-        "ORIG_FID" : 148
+        "ORIG_FID" : 148,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6411,7 +6559,8 @@
         "PCTCHG_MAX_2016_" : 0,
         "CHG2011_2016" : 93,
         "PCTCHG2011_2016" : 3.1000000000000001,
-        "ORIG_FID" : 149
+        "ORIG_FID" : 149,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6454,7 +6603,8 @@
         "PCTCHG_MAX_2016_" : 0,
         "CHG2011_2016" : 4,
         "PCTCHG2011_2016" : 0,
-        "ORIG_FID" : 150
+        "ORIG_FID" : 150,
+        "METRIC" : "Employment"
       }
     },
     {
@@ -6497,7 +6647,8 @@
         "PCTCHG_MAX_2016_" : -1,
         "CHG2011_2016" : -2,
         "PCTCHG2011_2016" : -1,
-        "ORIG_FID" : 151
+        "ORIG_FID" : 151,
+        "METRIC" : "Employment"
       }
     }
   ]
