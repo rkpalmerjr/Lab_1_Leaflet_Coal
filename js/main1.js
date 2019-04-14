@@ -64,7 +64,7 @@ L.control.layers(baseMaps, overlays).addTo(map);
 //Function to import the county coal employment data (used by the createMap function)
 function getPropEmpLyr(map){
 	//Load the data using jQuery
-	$.ajax('GEOG575-Lab1-Leaflet/data/Appalachia_Coal_Emp_POINTS.json', {
+	$.ajax('data/Appalachia_Coal_Emp_POINTS.json', {
 		dataType: 'json',
 		success: function(data){
 			//Create an attributes array with the received data
@@ -82,7 +82,7 @@ function getPropEmpLyr(map){
 //Function to import the county coal employment data (used by the createMap function)
 function getPropProLyr(map){
 	//Load the data using jQuery
-	$.ajax('GEOG575-Lab1-Leaflet/data/Appalachia_Coal_Pro_POINTS.json', {
+	$.ajax('data/Appalachia_Coal_Pro_POINTS.json', {
 		dataType: 'json',
 		success: function(data){
 			//Create an attributes array with the received data
@@ -100,7 +100,7 @@ function getPropProLyr(map){
 //Function to get the ARC outline (used by the createMap function) - just for reference purposes
 function getARCOutlineLyr(map){
 	//Load the data using jQuery
-	$.ajax('GEOG575-Lab1-Leaflet/data/ARC_Region_Outline.json', {
+	$.ajax('data/ARC_Region_Outline.json', {
 		dataType: 'json',
 		success: function(data){
 			//Create the ARC polygon using this data
@@ -112,7 +112,7 @@ function getARCOutlineLyr(map){
 //Function to get the states (used by the createMap function) - just for reference purposes
 function getStatesLyr(map){
 	//Load the data using jQuery
-	$.ajax('GEOG575-Lab1-Leaflet/data/States.json', {
+	$.ajax('data/States.json', {
 		dataType: 'json',
 		success: function(data){
 			//Create the state polygons using this data
@@ -124,7 +124,7 @@ function getStatesLyr(map){
 //Function to get the counties (used by the createMap function)
 function getCountiesLyr(map){
 	//Load the data using jQuery
-	$.ajax('GEOG575-Lab1-Leaflet/data/Counties.json', {
+	$.ajax('data/Counties.json', {
 		dataType: 'json',
 		success: function(data){
 			//Create an attributes array with the received data
@@ -709,8 +709,8 @@ function createPropSequenceControls(map, empAttributes, proAttributes){
 	});
 
 	//Create skip (reverse/forward) buttons
-	$('.sequenceControlContainer').append('<button class="skip" id="reverse"><img alt="Reverse Button" src="GEOG575-Lab1-Leaflet/img/icons/triangle-15.svg"></button>');
-	$('.sequenceControlContainer').append('<button class="skip" id="forward"><img alt="Forward Button" src="GEOG575-Lab1-Leaflet/img/icons/triangle-15.svg"></button>');
+	$('.sequenceControlContainer').append('<button class="skip" id="reverse"><img alt="Reverse Button" src="img/icons/triangle-15.svg"></button>');
+	$('.sequenceControlContainer').append('<button class="skip" id="forward"><img alt="Forward Button" src="img/icons/triangle-15.svg"></button>');
 
 
 	//Listen for user input via affordances
